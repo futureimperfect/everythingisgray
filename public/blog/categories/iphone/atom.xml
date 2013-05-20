@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: iPhone | Everything is Gray]]></title>
+  <link href="http://polar-tor-8549.herokuapp.com/blog/categories/iphone/atom.xml" rel="self"/>
+  <link href="http://polar-tor-8549.herokuapp.com/"/>
+  <updated>2013-05-19T23:22:52-07:00</updated>
+  <id>http://polar-tor-8549.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[James Barclay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[iDeals iPhone app]]></title>
+    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/08/01/ideals-iphone-ap/"/>
+    <updated>2009-08-01T11:43:21-07:00</updated>
+    <id>http://polar-tor-8549.herokuapp.com/blog/2009/08/01/ideals-iphone-ap</id>
+    <content type="html"><![CDATA[<p>So I had the pleasure of meeting the gentleman that develops the <a href="http://fiveohfive.com/iDeals.html">iDeals</a> iPhone application a few days ago. iDeals was designed to provide an easy to use interface for tracking deals from Amazon, EB Games, Buy.com, Woot!, etc. The iDeals app pulls its information from <a href="http://www.dodtracker.com/">DODTracker.com</a> servers, but is far more enjoyable than visiting the site itself. Best of all it&rsquo;s free, go download it.</p>
+]]></content>
+  </entry>
+  
+</feed>

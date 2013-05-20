@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>How to: installing FreeBSD as a guest OS in Parallels 4 - Everything is Gray</title>
+  <meta name="author" content="James Barclay">
+
+  
+  <meta name="description" content="I&rsquo;m by no means a UNIX expert, but I&rsquo;ve managed to get the latest stable version of FreeBSD, (7.1), up and running as a guest OS using &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://polar-tor-8549.herokuapp.com/blog/2009/04/16/how-to-installing-freebsd-as-a-guest-os-in-parallels-4">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Everything is Gray" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Everything is Gray</a></h1>
+  
+    <h2>A place to put stuff.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:polar-tor-8549.herokuapp.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">How to: Installing FreeBSD as a Guest OS in Parallels 4</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-04-16T18:19:06-07:00" pubdate data-updated="true">Apr 16<span>th</span>, 2009</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I&rsquo;m by no means a UNIX expert, but I&rsquo;ve managed to get the latest stable version of FreeBSD, (7.1), up and running as a guest OS using Parallels Desktop 4. In this tutorial, I will explain exactly what was done to achieve this.</p>
+
+<p>First, you must download the <a href="http://www.freebsd.org/where.html">latest stable version of FreeBSD</a>, (at the time this article was written it&rsquo;s 7.1). Once the download is completed, launch Parallels and chose the ISO image as the source.</p>
+
+<p>Next, you&rsquo;ll have to tell Parallels how many CPU&rsquo;s and the amount of RAM you would like to allocate for the virtual machine. I chose 1 CPU and 512 MB of RAM.</p>
+
+<p>After deciding how much RAM and the number of CPU&rsquo;s you will allocate, you&rsquo;ll have to configure your hard disk options. First, tell Parallels that you&rsquo;d like to create a new image file. The next screen will ask you to determine whether or not you&rsquo;d like to create a plain disk or an expanding one, (i.e. sparse image). Choose a plain disk and specify the amount of space you&rsquo;d like it to utilize, (5GB should be plenty for a standard install).</p>
+
+<p>The next step you&rsquo;ll have to take is to determine what type of networking you&rsquo;d like the virtual machine to utilize. I chose bridged networking, because I&rsquo;d like the FreeBSD install to appear as a separate machine on my network.</p>
+
+<p>That should be it for configuring Parallels, now it&rsquo;s time to boot FreeBSD.</p>
+
+<p>The first thing you&rsquo;ll need to do once FreeBSD has booted is choose the type of install you&rsquo;d like to set up. I chose a standard install, (remember, I&rsquo;m no expert).</p>
+
+<p>Now you&rsquo;ll need to partition your disk, (the virtual one, of course), for use with FreeBSD. Hit the &lsquo;A&rsquo; key on your keyboard to use the entire disk. This will utilize the entire amount you specified when configuring Parallels.</p>
+
+<p>Once you&rsquo;ve configured your partition/s, you&rsquo;ll need to specify whether or not you&rsquo;d like to use the FreeBSD boot manager or not. Because we are working in a virtual machine, you&rsquo;ll want to use the FreeBSD boot selector. Don&rsquo;t worry, it won&rsquo;t affect your Mac&rsquo;s built in boot manager.</p>
+
+<p>Now that that&rsquo;s finished, you&rsquo;ll want to tell FreeBSD how much space you would like to use for your file system and how much for your swap partition. I chose to use 4 GB for my file system and 1 GB for my swap partition. You&rsquo;ll also have to specify the mount point for the partition, (I simply chose &ldquo;/&rdquo;).</p>
+
+<p>Next you&rsquo;ll be asked to choose your distribution set. I chose to install all system sources, binaries, and the windowing system. This all fits nicely into the 5GB image we just created.</p>
+
+<p>The last step is to choose your installation media. Notice that there is no image file option, so you&rsquo;ll have to tell it that you&rsquo;re installing from CD/DVD media.</p>
+
+<p>That&rsquo;s it. You should be up and running with FreeBSD as a guest OS.</p>
+
+<p><img src="http://everythingisgray.com/wp-content/uploads/2009/04/installing_bsd.png" alt="Installing FreeBSD" /></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">admin</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-04-16T18:19:06-07:00" pubdate data-updated="true">Apr 16<span>th</span>, 2009</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://polar-tor-8549.herokuapp.com/blog/2009/04/16/how-to-installing-freebsd-as-a-guest-os-in-parallels-4/" data-via="futureimperfet" data-counturl="http://polar-tor-8549.herokuapp.com/blog/2009/04/16/how-to-installing-freebsd-as-a-guest-os-in-parallels-4/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2009/04/16/loopthing-uses-simplixity-theme-for-their-blog/" title="Previous Post: Loopthing uses "Simplixity" theme for their blog">&laquo; Loopthing uses "Simplixity" theme for their blog</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2009/04/18/is-browser-new-wysiwyg/" title="Next Post: Is the browser the new WYSIWYG?">Is the browser the new WYSIWYG? &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/">Automatically Post Images to Tumblr Using Automator</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files/">Restore MySQL Database From Ibdata and .frm Files</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/04/16/in-store-signing-at-pages-bookstore/">In-Store Signing at Pages Bookstore</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/03/19/msu-comics-forum/">MSU Comics Forum</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/02/15/configure-archive-utility-in-mac-os-x/">Configure Archive Utility in Mac OS X</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/futureimperfect">@futureimperfect</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'futureimperfect',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - James Barclay -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'everythingisgray';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://polar-tor-8549.herokuapp.com/blog/2009/04/16/how-to-installing-freebsd-as-a-guest-os-in-parallels-4/';
+        var disqus_url = 'http://polar-tor-8549.herokuapp.com/blog/2009/04/16/how-to-installing-freebsd-as-a-guest-os-in-parallels-4/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

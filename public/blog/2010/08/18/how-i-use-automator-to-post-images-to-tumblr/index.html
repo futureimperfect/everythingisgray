@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Automatically Post Images to Tumblr Using Automator - Everything is Gray</title>
+  <meta name="author" content="James Barclay">
+
+  
+  <meta name="description" content="For the past few months I have been drawing everyday on 2.5 x 3.5 inch pieces of Bristol board as part of my most recent &lsquo;kooBtrA&rsquo; &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://polar-tor-8549.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Everything is Gray" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Everything is Gray</a></h1>
+  
+    <h2>A place to put stuff.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:polar-tor-8549.herokuapp.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Automatically Post Images to Tumblr Using Automator</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-08-18T21:14:33-07:00" pubdate data-updated="true">Aug 18<span>th</span>, 2010</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>For the past few months I have been drawing everyday on 2.5 x 3.5 inch pieces of Bristol board as part of my most recent &lsquo;<a href="http://koobtra.com/">kooBtrA</a>&rsquo; project. kooBtrA = ArtBook in reverse, as I plan to self publish a full-color book containing all the images sometime after one year passes.</p>
+
+<p>As you might imagine, finding the time to draw every day can be challenging. Not to mention the fact that I&rsquo;ve also been posting these images to my Tumbleog; which includes scanning, resizing, and logging into Tumblr to post the image along with a description and tag. This became mundane after the first few days of posting, so I decided to set time aside to automate this process, as doing so would surely save me time in the long run.</p>
+
+<p>I did a bit of research and discovered that Tumblr offers the ability to send posts via email. This immediately gave me the idea of using <a href="http://en.wikipedia.org/wiki/Automator_(software">Automator</a>) to streamline this process, as Automator offers a very straightforward &lsquo;New Mail Message&rsquo; Action. This would allow me to create an Image Capture Plugin that grabs the image that was scanned and include it in the email message, right? Well, yes, but with one caveat. With Snow Leopard&rsquo;s introduction came a few changes, one of which removes the ability to scan to a specified folder while using an Image Capture Plugin, (the image is saved to the ~/Pictures folder, then the Workflow runs). The workaround in my case was to use a Folder Action, which would result in the Workflow running any time a new file is added to the specified folder.</p>
+
+<p>What I had been doing until this point was scanning the image to a subfolder of my ~/Documents folder; scaling the image to 300px max on either side depending on orientation; then uploading the image to Tumblr.com along with a description and tag. The Folder Action Workflow I ended up producing cuts the time this took in half.</p>
+
+<p>The first thing I did was create two variables. One for the name of the post and one for the number of the post. You can achieve this by right or control clicking in the variables window at the bottom of the application window and choosing &lsquo;New variable.&rsquo; I left the value blank, as this will vary with each post. The next step was to start dragging actions over to the right of the application window. The first is an &lsquo;Ask for Text&rsquo; Action, which asks for the name of the post, then sets the value of the variable. The same goes for the number of post. The Workflow then asks for the Finder items to act on, then copies them to a new location and scales them to 300px. Finally, the &lsquo;New Mail Message&rsquo; Action is added, which utilizes the name and number variables that were set previously, as well as receives the resized image from the previous Action. The last Action that was added was &lsquo;Send Outgoing Messages,&rsquo; which is fairly self explanatory.</p>
+
+<p>Below is the printed Workflow for your reference should you wish to accomplish something similar. If you have any suggestions as to improving this Automator Workflow please leave a comment. For more information regarding Tumblr&rsquo;s post via email option please visit <a href="http://www.tumblr.com/docs/en/email_publishing">http://www.tumblr.com/docs/en/email_publishing</a>.</p>
+
+<p><a href="http://a.imageshack.us/img441/5205/posttokoobtra.jpg"><img src="http://a.imageshack.us/img718/5205/posttokoobtra.jpg" alt="Post to Tumblr" /> </a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">admin</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-08-18T21:14:33-07:00" pubdate data-updated="true">Aug 18<span>th</span>, 2010</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/art/'>Art</a>, <a class='category' href='/blog/categories/os-x/'>OS X</a>, <a class='category' href='/blog/categories/technology/'>Technology</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://polar-tor-8549.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/" data-via="futureimperfet" data-counturl="http://polar-tor-8549.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files/" title="Previous Post: Restore MySQL Database from ibdata and .frm Files">&laquo; Restore MySQL Database from ibdata and .frm Files</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/">Automatically Post Images to Tumblr Using Automator</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files/">Restore MySQL Database From Ibdata and .frm Files</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/04/16/in-store-signing-at-pages-bookstore/">In-Store Signing at Pages Bookstore</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/03/19/msu-comics-forum/">MSU Comics Forum</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/02/15/configure-archive-utility-in-mac-os-x/">Configure Archive Utility in Mac OS X</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/futureimperfect">@futureimperfect</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'futureimperfect',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - James Barclay -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'everythingisgray';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://polar-tor-8549.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/';
+        var disqus_url = 'http://polar-tor-8549.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
