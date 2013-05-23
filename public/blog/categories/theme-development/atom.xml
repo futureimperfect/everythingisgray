@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Theme Development | Everything is Gray]]></title>
-  <link href="http://polar-tor-8549.herokuapp.com/blog/categories/theme-development/atom.xml" rel="self"/>
-  <link href="http://polar-tor-8549.herokuapp.com/"/>
-  <updated>2013-05-19T23:22:52-07:00</updated>
-  <id>http://polar-tor-8549.herokuapp.com/</id>
+  <link href="http://everythingisgray.herokuapp.com/blog/categories/theme-development/atom.xml" rel="self"/>
+  <link href="http://everythingisgray.herokuapp.com/"/>
+  <updated>2013-05-22T22:43:26-07:00</updated>
+  <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Version 0.5 of Simplixity is now live]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live/"/>
     <updated>2009-05-21T17:44:59-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live</id>
     <content type="html"><![CDATA[<p>Today I submitted an update to my WordPress theme Simplixity, which improves how images are handled in posts and fixes an issue that existed while no widgets were activated in the admin panel. You can view and download it <a href="http://wordpress.org/extend/themes/simplixity">here</a>.</p>
 
 <p>I&rsquo;ve already begun working on the next update, which should include an easily customizable client.css file, for making quick changes to the theme.</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[Do hosted solutions threaten WordPress and other blogging platforms?]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/05/02/do-hosted-solutions-threaten-wordpress-and-other-blogging-platforms/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/05/02/do-hosted-solutions-threaten-wordpress-and-other-blogging-platforms/"/>
     <updated>2009-05-02T12:35:16-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/05/02/do-hosted-solutions-threaten-wordpress-and-other-blogging-platforms</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/05/02/do-hosted-solutions-threaten-wordpress-and-other-blogging-platforms</id>
     <content type="html"><![CDATA[<p>With completely hosted solutions like <a href="http://www.squarespace.com/">Squarespace</a> becoming more and more popular everyday, should content creators using WordPress and similar platforms be concerned? What about the designers and developers that create plugins and themes for these systems?</p>
 
 <p>In order for blogging/content management systems like WordPress to survive, there needs to be a thriving community of developers and users alike. There&rsquo;s certainly no shortage of either in the WordPress community, so I don&rsquo;t see it going anywhere anytime soon. Truthfully, I find that there is a place for both a DIY solution like WordPress and an entirely hosted solution like <a href="http://www.squarespace.com/">Squarespace</a>. I personally prefer having to dig deep into the CSS, XHTML, and PHP to truly customize a WordPress blog/site, though.</p>
@@ -39,27 +39,27 @@
   
   <entry>
     <title type="html"><![CDATA[Jobtac uses "Simplixity" theme for their WP blog]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/04/30/jobtac-uses-simplixity-theme-for-their-wp-blog/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/04/30/jobtac-uses-simplixity-theme-for-their-wp-blog/"/>
     <updated>2009-04-30T12:08:40-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/04/30/jobtac-uses-simplixity-theme-for-their-wp-blog</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/04/30/jobtac-uses-simplixity-theme-for-their-wp-blog</id>
     <content type="html"><![CDATA[<p>It&rsquo;s become rather amusing for me to find out just who is using my WordPress theme. Sometimes it&rsquo;s not so flattering, other times it is. The other day I discovered that <a href="http://www.jobtac.com/">Jobtac</a>, a job posting site for employers and job seekers alike, is using <a href="http://wordpress.org/extend/themes/simplixity">Simplixity</a> for <a href="http://www.jobtac.com/blog/">their blog</a>. Thanks a lot, guys!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Loopthing uses "Simplixity" theme for their blog]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/04/16/loopthing-uses-simplixity-theme-for-their-blog/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/04/16/loopthing-uses-simplixity-theme-for-their-blog/"/>
     <updated>2009-04-16T17:26:34-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/04/16/loopthing-uses-simplixity-theme-for-their-blog</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/04/16/loopthing-uses-simplixity-theme-for-their-blog</id>
     <content type="html"><![CDATA[<p>While browsing through my HTTP referrers I found that an online business network called <em><a href="http://www.loopthing.com/">Loopthing</a></em> is using my WordPress theme for their blog. So far it looks like the blog is somewhat secondary, (the link to it is on the bottom of the page), but I&rsquo;m honored nonetheless. <a href="http://blog.loopthing.com/">Go take a look.</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Modification of "Simplixity" WordPress theme]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/04/07/modifications-of-simplixity-wordpress-theme/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/04/07/modifications-of-simplixity-wordpress-theme/"/>
     <updated>2009-04-07T18:52:34-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/04/07/modifications-of-simplixity-wordpress-theme</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/04/07/modifications-of-simplixity-wordpress-theme</id>
     <content type="html"><![CDATA[<p>I recently discovered that a gentleman named Pete made a modification of my WordPress theme for his own site. It&rsquo;s exciting to see this being done so early on. It&rsquo;s called <a href="http://www.theteacherlist.ca/">The Teacher List</a>, go check it out.</p>
 ]]></content>
   </entry>

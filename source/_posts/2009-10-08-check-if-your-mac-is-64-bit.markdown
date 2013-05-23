@@ -1,5 +1,5 @@
 ---
-author: admin
+author: James Barclay
 comments: true
 date: 2009-10-08 19:52:41
 layout: post

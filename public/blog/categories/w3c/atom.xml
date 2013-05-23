@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: W3C | Everything is Gray]]></title>
-  <link href="http://polar-tor-8549.herokuapp.com/blog/categories/w3c/atom.xml" rel="self"/>
-  <link href="http://polar-tor-8549.herokuapp.com/"/>
-  <updated>2013-05-19T23:22:52-07:00</updated>
-  <id>http://polar-tor-8549.herokuapp.com/</id>
+  <link href="http://everythingisgray.herokuapp.com/blog/categories/w3c/atom.xml" rel="self"/>
+  <link href="http://everythingisgray.herokuapp.com/"/>
+  <updated>2013-05-22T22:43:26-07:00</updated>
+  <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[XHTML is dead, (but don't worry)]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry/"/>
     <updated>2009-07-02T16:06:10-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry</id>
     <content type="html"><![CDATA[<p><strike>Today</strike> On July 2, 2009, the W3C announced that the XHTML 2 working group will cease development by the end of 2009. Of course all this means is that more time, effort, and man power will be focused on the HTML 5 specification, which is going to drastically change the web, (just take a look at <a href="http://wave.google.com/">Google Wave</a>). This also means that we won&rsquo;t have any spec wars to deal with, which are almost as bad as format wars, (HD DVD vs. Blu-Ray anyone?)</p>
 
 <p>From the W3C:</p>

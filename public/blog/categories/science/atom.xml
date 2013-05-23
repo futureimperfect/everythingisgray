@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Science | Everything is Gray]]></title>
-  <link href="http://polar-tor-8549.herokuapp.com/blog/categories/science/atom.xml" rel="self"/>
-  <link href="http://polar-tor-8549.herokuapp.com/"/>
-  <updated>2013-05-19T23:22:52-07:00</updated>
-  <id>http://polar-tor-8549.herokuapp.com/</id>
+  <link href="http://everythingisgray.herokuapp.com/blog/categories/science/atom.xml" rel="self"/>
+  <link href="http://everythingisgray.herokuapp.com/"/>
+  <updated>2013-05-22T22:43:26-07:00</updated>
+  <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Life on Mars?]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/09/04/life-on-mars/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/09/04/life-on-mars/"/>
     <updated>2009-09-04T16:54:46-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/09/04/life-on-mars</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/09/04/life-on-mars</id>
     <content type="html"><![CDATA[<p>So it turns out life on Mars might actually be possible, thanks to an adorable little robot called <em><a href="http://www.treehugger.com/files/2009/08/robot-colonize-mars-plants.php">Le Petit Prince</a></em>. The robot, (which looks an awful lot like EVE from WALL-E), was designed to care for plants while searching for an environment with ample nutrients. The idea is to eventually produce enough oxygen on Mars to make it suitable for humans, but don&rsquo;t plan on moving anytime soon, it&rsquo;s just a concept.</p>
 ]]></content>
   </entry>

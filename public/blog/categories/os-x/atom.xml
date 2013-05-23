@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: OS X | Everything is Gray]]></title>
-  <link href="http://polar-tor-8549.herokuapp.com/blog/categories/os-x/atom.xml" rel="self"/>
-  <link href="http://polar-tor-8549.herokuapp.com/"/>
-  <updated>2013-05-19T23:22:52-07:00</updated>
-  <id>http://polar-tor-8549.herokuapp.com/</id>
+  <link href="http://everythingisgray.herokuapp.com/blog/categories/os-x/atom.xml" rel="self"/>
+  <link href="http://everythingisgray.herokuapp.com/"/>
+  <updated>2013-05-22T22:43:26-07:00</updated>
+  <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Automatically Post Images to Tumblr Using Automator]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/"/>
     <updated>2010-08-18T21:14:33-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr</id>
     <content type="html"><![CDATA[<p>For the past few months I have been drawing everyday on 2.5 x 3.5 inch pieces of Bristol board as part of my most recent &lsquo;<a href="http://koobtra.com/">kooBtrA</a>&rsquo; project. kooBtrA = ArtBook in reverse, as I plan to self publish a full-color book containing all the images sometime after one year passes.</p>
 
 <p>As you might imagine, finding the time to draw every day can be challenging. Not to mention the fact that I&rsquo;ve also been posting these images to my Tumbleog; which includes scanning, resizing, and logging into Tumblr to post the image along with a description and tag. This became mundane after the first few days of posting, so I decided to set time aside to automate this process, as doing so would surely save me time in the long run.</p>
@@ -36,18 +36,18 @@
   
   <entry>
     <title type="html"><![CDATA[Configure Archive Utility in Mac OS X]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2010/02/15/configure-archive-utility-in-mac-os-x/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2010/02/15/configure-archive-utility-in-mac-os-x/"/>
     <updated>2010-02-15T20:46:41-08:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2010/02/15/configure-archive-utility-in-mac-os-x</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2010/02/15/configure-archive-utility-in-mac-os-x</id>
     <content type="html"><![CDATA[<p>Having recently purchased a new MacBook Pro and electing to skip the option of running <a href="http://en.wikipedia.org/wiki/Migration_Assistant_(Apple">Migration Assistant</a>) to transfer my data and settings, I noticed that a few applications were behaving differently. Over the years I&rsquo;ve configured quite a few things on my Mac, and eventually I became accustomed to said customizations. One of the first things I noticed was that when I would unarchive a zip file, the compressed file would stay put. I remembered that a few years ago I learned of a cool way to configure Mac OS X&rsquo;s built-in Archive Utility, (using a System Preference pane), so I immediately went digging. To do this, simply navigate to <code>therootofyourharddrive/System/Library/CoreServices</code>. From there right or control click on Archive Utility.app, and select &ldquo;Show Package Contents.&rdquo; A new window will open containing a folder named <code>Contents</code>, within which you&rsquo;ll find <code>Resources</code>, and finally <code>Archives.prefPane</code>. Opening this preference pane will result in System Preferences.app asking if you&rsquo;d like to install for all users or for this user only. Voila! Now you can tell Archive Utility to delete the archive after expanding it.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Check if your Mac is 64 bit]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/10/08/check-if-your-mac-is-64-bit/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/10/08/check-if-your-mac-is-64-bit/"/>
     <updated>2009-10-08T12:52:41-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/10/08/check-if-your-mac-is-64-bit</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/10/08/check-if-your-mac-is-64-bit</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s an easy way to determine whether or not your Mac is 64 bit capable. Open <code>Terminal.app</code>, which is located in <code>/Applications/Utilities</code> and type in</p>
 
 <p><code>sysctl hw |grep 64bit</code>.</p>
@@ -66,18 +66,18 @@
   
   <entry>
     <title type="html"><![CDATA[Snow Stack 3D CSS]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/07/22/snow-stack-3d-css/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/22/snow-stack-3d-css/"/>
     <updated>2009-07-22T18:36:30-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/07/22/snow-stack-3d-css</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/07/22/snow-stack-3d-css</id>
     <content type="html"><![CDATA[<p>A gentleman by the name of Charles Ying of <a href="http://www.satine.org/">Satine.org</a> has developed a new 3D CSS visual effects demonstration called <a href="http://www.satine.org/archives/2009/07/11/snow-stack-is-here/">Snow Stack</a>, which runs entirely on JavaScript, native WebKit CSS extensions, and XHTML/HTML. If you&rsquo;re familiar with Cover Flow/Core Animation on the Mac you&rsquo;ll immediately recognize Snow Stack. In order to run the demo you&rsquo;ll need either the <em>Snow Leopard Beta + Safari</em> <strong>or</strong> <em>Leopard + the latest nightly build of WebKit</em>. Either way, it&rsquo;s quite fascinating to think that this is all being done in the browser.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Cappuccino Web Framework]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/07/20/cappuccino-web-framework/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/20/cappuccino-web-framework/"/>
     <updated>2009-07-20T19:31:43-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/07/20/cappuccino-web-framework</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/07/20/cappuccino-web-framework</id>
     <content type="html"><![CDATA[<p>So lately I&rsquo;ve been playing around with the <a href="http://cappuccino.org/">Cappuccino web framework</a> and a nifty little programming language called Objective-J. The Cappuccino framework allows you to create desktop class applications for the browser, and gives you the ability to run these applications on the desktop, (similar to <a href="http://www.adobe.com/products/air/">Adobe AIR</a>). One of the many benefits of being able to create applications that run on the desktop is having the ability to run the application while offline.</p>
 
 <p>The interesting thing about Objective-J is that it is based on Objective-C, but any valid JavaScript code is accepted as valid Objective-J code. A fun way to look at it is that Objective-J is to JavaScript as Objective-C is to C.</p>

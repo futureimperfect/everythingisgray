@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Web Design | Everything is Gray]]></title>
-  <link href="http://polar-tor-8549.herokuapp.com/blog/categories/web-design/atom.xml" rel="self"/>
-  <link href="http://polar-tor-8549.herokuapp.com/"/>
-  <updated>2013-05-19T23:22:52-07:00</updated>
-  <id>http://polar-tor-8549.herokuapp.com/</id>
+  <link href="http://everythingisgray.herokuapp.com/blog/categories/web-design/atom.xml" rel="self"/>
+  <link href="http://everythingisgray.herokuapp.com/"/>
+  <updated>2013-05-22T22:43:26-07:00</updated>
+  <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
     
@@ -15,47 +15,47 @@
   
   <entry>
     <title type="html"><![CDATA[10 Inspiring Websites]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2010/01/31/10-inspiring-websites/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2010/01/31/10-inspiring-websites/"/>
     <updated>2010-01-31T18:57:07-08:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2010/01/31/10-inspiring-websites</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2010/01/31/10-inspiring-websites</id>
     <content type="html"><![CDATA[<p>Lately I&rsquo;ve been spending quite a bit of time designing websites, whether it&rsquo;s WordPress theme development or Joomla! template design. A huge part of this process, (for me), is finding inspiration. Below are 10 carefully crafted examples of good web design that I&rsquo;ve been inspired by as of late.</p>
 
-<p>[caption id=&ldquo;attachment_166&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;31THREE&rdquo;]<a href="http://www.31three.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.52.54-PM.png" alt="31THREE" /></a>[/caption]</p>
+<p><a href="http://www.31three.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.52.54-PM.png" alt="31THREE" /></a></p>
 
-<p>[caption id=&ldquo;attachment_161&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Kyle Florence&rdquo;]<a href="http://www.kflorence.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.13.23-PM.png" alt="Kyle Florence" /></a>[/caption]</p>
+<p><a href="http://www.kflorence.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.13.23-PM.png" alt="Kyle Florence" /></a></p>
 
-<p>[caption id=&ldquo;attachment_160&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;A List Apart&rdquo;]<a href="http://www.alistapart.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.12.07-PM.png" alt="A List Apart" /></a>[/caption]</p>
+<p><a href="http://www.alistapart.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.12.07-PM.png" alt="A List Apart" /></a></p>
 
-<p>[caption id=&ldquo;attachment_159&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Buffalo&rdquo;]<a href="http://www.builtbybuffalo.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.11.43-PM.png" alt="Buffalo" /></a>[/caption]</p>
+<p><a href="http://www.builtbybuffalo.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.11.43-PM.png" alt="Buffalo" /></a></p>
 
-<p>[caption id=&ldquo;attachment_158&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Design by Silnt&rdquo;]<a href="http://silnt.com/v4/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.11.28-PM.png" alt="Design by Silnt" /></a>[/caption]</p>
+<p><a href="http://silnt.com/v4/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.11.28-PM.png" alt="Design by Silnt" /></a></p>
 
-<p>[caption id=&ldquo;attachment_165&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;FullAhead&rdquo;]<a href="http://fullahead.org/index.php"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.50.21-PM.png" alt="FullAhead" /></a>[/caption]</p>
+<p><a href="http://fullahead.org/index.php"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.50.21-PM.png" alt="FullAhead" /></a></p>
 
-<p>[caption id=&ldquo;attachment_164&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Viget&rdquo;]<a href="http://www.viget.com/inspire/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.49.50-PM.png" alt="Viget" /></a>[/caption]</p>
+<p><a href="http://www.viget.com/inspire/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.49.50-PM.png" alt="Viget" /></a></p>
 
-<p>[caption id=&ldquo;attachment_163&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;thinkdesign&rdquo;]<a href="http://thinkdesignblog.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.48.11-PM.png" alt="thinkdesign" /></a>[/caption]</p>
+<p><a href="http://thinkdesignblog.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.48.11-PM.png" alt="thinkdesign" /></a></p>
 
-<p>[caption id=&ldquo;attachment_162&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Ed Merritt&rdquo;]<a href="http://www.edmerritt.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.14.25-PM.png" alt="Ed Merritt" /></a>[/caption]</p>
+<p><a href="http://www.edmerritt.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.14.25-PM.png" alt="Ed Merritt" /></a></p>
 
-<p>[caption id=&ldquo;attachment_157&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;ThemeShaper&rdquo;]<a href="http://themeshaper.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.10.57-PM.png" alt="ThemeShaper" /></a>[/caption]</p>
+<p><a href="http://themeshaper.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.10.57-PM.png" alt="ThemeShaper" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[American Airlines site redesign]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/06/16/american-airlines-site-redesign/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/06/16/american-airlines-site-redesign/"/>
     <updated>2009-06-16T18:54:48-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/06/16/american-airlines-site-redesign</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/06/16/american-airlines-site-redesign</id>
     <content type="html"><![CDATA[<p>I heard about a week ago that someone had done a mockup of a possible redesign for the <strong>American Airlines</strong> website, and the first thing I did was take a look at <a href="http://www.aa.com/aa/homePage.do">their existing site</a>. It&rsquo;s unbelievable to me that such a huge corporation with so many resources could produce such a terrible, unusable site. I for one haven&rsquo;t ever needed to use the site, but a user interface designer named Dustin Curtis has, (which inspired him to create the mockup.) The redesign is visually interesting as well as functional. You should read more about it/take a look at it <a href="http://dustincurtis.com/dear_american_airlines.html">here</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Version 0.5 of Simplixity is now live]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live/"/>
     <updated>2009-05-21T17:44:59-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live</id>
     <content type="html"><![CDATA[<p>Today I submitted an update to my WordPress theme Simplixity, which improves how images are handled in posts and fixes an issue that existed while no widgets were activated in the admin panel. You can view and download it <a href="http://wordpress.org/extend/themes/simplixity">here</a>.</p>
 
 <p>I&rsquo;ve already begun working on the next update, which should include an easily customizable client.css file, for making quick changes to the theme.</p>
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[Is the browser the new WYSIWYG?]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/04/18/is-browser-new-wysiwyg/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/04/18/is-browser-new-wysiwyg/"/>
     <updated>2009-04-18T18:39:15-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/04/18/is-browser-new-wysiwyg</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/04/18/is-browser-new-wysiwyg</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been thinking a lot about this concept lately. Have we come to a point where the Dreamweaver style IDE, (integrated development environment), has become a thing of the past? Ninety percent of my formal training has been heavily dependent on this model, yet I can&rsquo;t see any forward thinking web designer/developer continuing to rely on it. In many ways, the browser has become my WYSIWYG of choice. You can quickly see the effects of changes made to style sheets and you&rsquo;re not confined to any one proprietary system.</p>
 ]]></content>
   </entry>

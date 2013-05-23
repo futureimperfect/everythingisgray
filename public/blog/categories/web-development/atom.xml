@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Web Development | Everything is Gray]]></title>
-  <link href="http://polar-tor-8549.herokuapp.com/blog/categories/web-development/atom.xml" rel="self"/>
-  <link href="http://polar-tor-8549.herokuapp.com/"/>
-  <updated>2013-05-19T23:22:52-07:00</updated>
-  <id>http://polar-tor-8549.herokuapp.com/</id>
+  <link href="http://everythingisgray.herokuapp.com/blog/categories/web-development/atom.xml" rel="self"/>
+  <link href="http://everythingisgray.herokuapp.com/"/>
+  <updated>2013-05-22T22:43:26-07:00</updated>
+  <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Restore MySQL Database from ibdata and .frm Files]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files/"/>
     <updated>2010-07-20T18:48:54-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files</id>
     <content type="html"><![CDATA[<p>Last week I was presented with a problem that involved restoring a MySQL database for a client using only the <code>/data</code> folder from an original MySQL installation. The solution turned out to be rather simple, but that didn&rsquo;t stop me from racking my brain for a few hours. Thus, I thought I&rsquo;d share my experience in hopes of helping others that may run into this.</p>
 
 <p><em>NOTE</em> The MySQL database I was tasked with restoring was associated with a WordPress installation. My guess is that this is irrelevant, though.</p>
@@ -38,47 +38,47 @@
   
   <entry>
     <title type="html"><![CDATA[10 Inspiring Websites]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2010/01/31/10-inspiring-websites/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2010/01/31/10-inspiring-websites/"/>
     <updated>2010-01-31T18:57:07-08:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2010/01/31/10-inspiring-websites</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2010/01/31/10-inspiring-websites</id>
     <content type="html"><![CDATA[<p>Lately I&rsquo;ve been spending quite a bit of time designing websites, whether it&rsquo;s WordPress theme development or Joomla! template design. A huge part of this process, (for me), is finding inspiration. Below are 10 carefully crafted examples of good web design that I&rsquo;ve been inspired by as of late.</p>
 
-<p>[caption id=&ldquo;attachment_166&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;31THREE&rdquo;]<a href="http://www.31three.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.52.54-PM.png" alt="31THREE" /></a>[/caption]</p>
+<p><a href="http://www.31three.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.52.54-PM.png" alt="31THREE" /></a></p>
 
-<p>[caption id=&ldquo;attachment_161&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Kyle Florence&rdquo;]<a href="http://www.kflorence.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.13.23-PM.png" alt="Kyle Florence" /></a>[/caption]</p>
+<p><a href="http://www.kflorence.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.13.23-PM.png" alt="Kyle Florence" /></a></p>
 
-<p>[caption id=&ldquo;attachment_160&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;A List Apart&rdquo;]<a href="http://www.alistapart.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.12.07-PM.png" alt="A List Apart" /></a>[/caption]</p>
+<p><a href="http://www.alistapart.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.12.07-PM.png" alt="A List Apart" /></a></p>
 
-<p>[caption id=&ldquo;attachment_159&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Buffalo&rdquo;]<a href="http://www.builtbybuffalo.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.11.43-PM.png" alt="Buffalo" /></a>[/caption]</p>
+<p><a href="http://www.builtbybuffalo.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.11.43-PM.png" alt="Buffalo" /></a></p>
 
-<p>[caption id=&ldquo;attachment_158&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Design by Silnt&rdquo;]<a href="http://silnt.com/v4/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.11.28-PM.png" alt="Design by Silnt" /></a>[/caption]</p>
+<p><a href="http://silnt.com/v4/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.11.28-PM.png" alt="Design by Silnt" /></a></p>
 
-<p>[caption id=&ldquo;attachment_165&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;FullAhead&rdquo;]<a href="http://fullahead.org/index.php"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.50.21-PM.png" alt="FullAhead" /></a>[/caption]</p>
+<p><a href="http://fullahead.org/index.php"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.50.21-PM.png" alt="FullAhead" /></a></p>
 
-<p>[caption id=&ldquo;attachment_164&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Viget&rdquo;]<a href="http://www.viget.com/inspire/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.49.50-PM.png" alt="Viget" /></a>[/caption]</p>
+<p><a href="http://www.viget.com/inspire/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.49.50-PM.png" alt="Viget" /></a></p>
 
-<p>[caption id=&ldquo;attachment_163&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;thinkdesign&rdquo;]<a href="http://thinkdesignblog.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.48.11-PM.png" alt="thinkdesign" /></a>[/caption]</p>
+<p><a href="http://thinkdesignblog.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.48.11-PM.png" alt="thinkdesign" /></a></p>
 
-<p>[caption id=&ldquo;attachment_162&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;Ed Merritt&rdquo;]<a href="http://www.edmerritt.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.14.25-PM.png" alt="Ed Merritt" /></a>[/caption]</p>
+<p><a href="http://www.edmerritt.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.14.25-PM.png" alt="Ed Merritt" /></a></p>
 
-<p>[caption id=&ldquo;attachment_157&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;450&rdquo; caption=&ldquo;ThemeShaper&rdquo;]<a href="http://themeshaper.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.10.57-PM.png" alt="ThemeShaper" /></a>[/caption]</p>
+<p><a href="http://themeshaper.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.10.57-PM.png" alt="ThemeShaper" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Snow Stack 3D CSS]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/07/22/snow-stack-3d-css/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/22/snow-stack-3d-css/"/>
     <updated>2009-07-22T18:36:30-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/07/22/snow-stack-3d-css</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/07/22/snow-stack-3d-css</id>
     <content type="html"><![CDATA[<p>A gentleman by the name of Charles Ying of <a href="http://www.satine.org/">Satine.org</a> has developed a new 3D CSS visual effects demonstration called <a href="http://www.satine.org/archives/2009/07/11/snow-stack-is-here/">Snow Stack</a>, which runs entirely on JavaScript, native WebKit CSS extensions, and XHTML/HTML. If you&rsquo;re familiar with Cover Flow/Core Animation on the Mac you&rsquo;ll immediately recognize Snow Stack. In order to run the demo you&rsquo;ll need either the <em>Snow Leopard Beta + Safari</em> <strong>or</strong> <em>Leopard + the latest nightly build of WebKit</em>. Either way, it&rsquo;s quite fascinating to think that this is all being done in the browser.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Cappuccino Web Framework]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/07/20/cappuccino-web-framework/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/20/cappuccino-web-framework/"/>
     <updated>2009-07-20T19:31:43-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/07/20/cappuccino-web-framework</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/07/20/cappuccino-web-framework</id>
     <content type="html"><![CDATA[<p>So lately I&rsquo;ve been playing around with the <a href="http://cappuccino.org/">Cappuccino web framework</a> and a nifty little programming language called Objective-J. The Cappuccino framework allows you to create desktop class applications for the browser, and gives you the ability to run these applications on the desktop, (similar to <a href="http://www.adobe.com/products/air/">Adobe AIR</a>). One of the many benefits of being able to create applications that run on the desktop is having the ability to run the application while offline.</p>
 
 <p>The interesting thing about Objective-J is that it is based on Objective-C, but any valid JavaScript code is accepted as valid Objective-J code. A fun way to look at it is that Objective-J is to JavaScript as Objective-C is to C.</p>
@@ -93,9 +93,9 @@
   
   <entry>
     <title type="html"><![CDATA[XHTML is dead, (but don't worry)]]></title>
-    <link href="http://polar-tor-8549.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry/"/>
+    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry/"/>
     <updated>2009-07-02T16:06:10-07:00</updated>
-    <id>http://polar-tor-8549.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry</id>
+    <id>http://everythingisgray.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry</id>
     <content type="html"><![CDATA[<p><strike>Today</strike> On July 2, 2009, the W3C announced that the XHTML 2 working group will cease development by the end of 2009. Of course all this means is that more time, effort, and man power will be focused on the HTML 5 specification, which is going to drastically change the web, (just take a look at <a href="http://wave.google.com/">Google Wave</a>). This also means that we won&rsquo;t have any spec wars to deal with, which are almost as bad as format wars, (HD DVD vs. Blu-Ray anyone?)</p>
 
 <p>From the W3C:</p>

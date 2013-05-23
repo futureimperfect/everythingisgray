@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://polar-tor-8549.herokuapp.com/sitemap.xml 
+Sitemap: http://everythingisgray.herokuapp.com/sitemap.xml 
