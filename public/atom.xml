@@ -4,7 +4,7 @@
   <title><![CDATA[Everything is Gray]]></title>
   <link href="http://everythingisgray.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://everythingisgray.herokuapp.com/"/>
-  <updated>2013-05-22T22:43:26-07:00</updated>
+  <updated>2013-05-25T16:28:11-07:00</updated>
   <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Automatically Post Images to Tumblr Using Automator]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/"/>
+    <link href="http://everythingisgray.herokuapp.com/2010/08/18/how-i-use-automator-to-post-images-to-tumblr/"/>
     <updated>2010-08-18T21:14:33-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2010/08/18/how-i-use-automator-to-post-images-to-tumblr</id>
+    <id>http://everythingisgray.herokuapp.com/2010/08/18/how-i-use-automator-to-post-images-to-tumblr</id>
     <content type="html"><![CDATA[<p>For the past few months I have been drawing everyday on 2.5 x 3.5 inch pieces of Bristol board as part of my most recent &lsquo;<a href="http://koobtra.com/">kooBtrA</a>&rsquo; project. kooBtrA = ArtBook in reverse, as I plan to self publish a full-color book containing all the images sometime after one year passes.</p>
 
 <p>As you might imagine, finding the time to draw every day can be challenging. Not to mention the fact that I&rsquo;ve also been posting these images to my Tumbleog; which includes scanning, resizing, and logging into Tumblr to post the image along with a description and tag. This became mundane after the first few days of posting, so I decided to set time aside to automate this process, as doing so would surely save me time in the long run.</p>
@@ -36,9 +36,9 @@
   
   <entry>
     <title type="html"><![CDATA[Restore MySQL Database from ibdata and .frm Files]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files/"/>
+    <link href="http://everythingisgray.herokuapp.com/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files/"/>
     <updated>2010-07-20T18:48:54-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files</id>
+    <id>http://everythingisgray.herokuapp.com/2010/07/20/restore-mysql-database-from-ibdata-and-frm-files</id>
     <content type="html"><![CDATA[<p>Last week I was presented with a problem that involved restoring a MySQL database for a client using only the <code>/data</code> folder from an original MySQL installation. The solution turned out to be rather simple, but that didn&rsquo;t stop me from racking my brain for a few hours. Thus, I thought I&rsquo;d share my experience in hopes of helping others that may run into this.</p>
 
 <p><em>NOTE</em> The MySQL database I was tasked with restoring was associated with a WordPress installation. My guess is that this is irrelevant, though.</p>
@@ -59,36 +59,36 @@
   
   <entry>
     <title type="html"><![CDATA[In-Store Signing at Pages Bookstore]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2010/04/16/in-store-signing-at-pages-bookstore/"/>
+    <link href="http://everythingisgray.herokuapp.com/2010/04/16/in-store-signing-at-pages-bookstore/"/>
     <updated>2010-04-16T11:09:13-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2010/04/16/in-store-signing-at-pages-bookstore</id>
+    <id>http://everythingisgray.herokuapp.com/2010/04/16/in-store-signing-at-pages-bookstore</id>
     <content type="html"><![CDATA[<p>The kind folks at <a href="http://maps.google.com/maps/place?cid=9976738330174778878&amp;q=pages+bookstore&amp;hl=en&amp;cd=1&amp;ei=TsLIS4qpOof2M7G64IEK&amp;sll=37.0625,-95.677068&amp;sspn=57.379893,85.869141&amp;ie=UTF8&amp;ll=60.630102,-138.691406&amp;spn=0,0&amp;z=4&amp;iwloc=A">Pages Bookstore</a> have invited me to do a book signing and give a short talk on comics production on May 8, 2010. The event will be taking place from 1-3 pm in downtown Flint, MI. If you&rsquo;re in the area stop by to pick up one of my short comics and chat with me for a bit. The promotional poster I did for the event can be found in the <a href="http://everythingisgray.com/portfolio/">portfolio</a> section of this site.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[MSU Comics Forum]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2010/03/19/msu-comics-forum/"/>
+    <link href="http://everythingisgray.herokuapp.com/2010/03/19/msu-comics-forum/"/>
     <updated>2010-03-19T17:30:01-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2010/03/19/msu-comics-forum</id>
+    <id>http://everythingisgray.herokuapp.com/2010/03/19/msu-comics-forum</id>
     <content type="html"><![CDATA[<p>Thanks to my mentor and friend <a href="http://www.elephanteater.com/">Ryan Claytor</a> I&rsquo;ll be tabling at the MSU Comics Forum on March 27, 2010. The event is held annually at, you guessed it, Michigan State University. There I&rsquo;ll be showcasing my latest comic, &ldquo;Here For Now,&rdquo; (which I&rsquo;ll soon have examples of in the portfolio section of this site), as well as my first comic, &ldquo;Stars Beneath Stars.&rdquo; For more info please visit <a href="http://www.comicsforum.msu.edu/">http://www.comicsforum.msu.edu/</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Configure Archive Utility in Mac OS X]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2010/02/15/configure-archive-utility-in-mac-os-x/"/>
+    <link href="http://everythingisgray.herokuapp.com/2010/02/15/configure-archive-utility-in-mac-os-x/"/>
     <updated>2010-02-15T20:46:41-08:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2010/02/15/configure-archive-utility-in-mac-os-x</id>
+    <id>http://everythingisgray.herokuapp.com/2010/02/15/configure-archive-utility-in-mac-os-x</id>
     <content type="html"><![CDATA[<p>Having recently purchased a new MacBook Pro and electing to skip the option of running <a href="http://en.wikipedia.org/wiki/Migration_Assistant_(Apple">Migration Assistant</a>) to transfer my data and settings, I noticed that a few applications were behaving differently. Over the years I&rsquo;ve configured quite a few things on my Mac, and eventually I became accustomed to said customizations. One of the first things I noticed was that when I would unarchive a zip file, the compressed file would stay put. I remembered that a few years ago I learned of a cool way to configure Mac OS X&rsquo;s built-in Archive Utility, (using a System Preference pane), so I immediately went digging. To do this, simply navigate to <code>therootofyourharddrive/System/Library/CoreServices</code>. From there right or control click on Archive Utility.app, and select &ldquo;Show Package Contents.&rdquo; A new window will open containing a folder named <code>Contents</code>, within which you&rsquo;ll find <code>Resources</code>, and finally <code>Archives.prefPane</code>. Opening this preference pane will result in System Preferences.app asking if you&rsquo;d like to install for all users or for this user only. Voila! Now you can tell Archive Utility to delete the archive after expanding it.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[10 Inspiring Websites]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2010/01/31/10-inspiring-websites/"/>
+    <link href="http://everythingisgray.herokuapp.com/2010/01/31/10-inspiring-websites/"/>
     <updated>2010-01-31T18:57:07-08:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2010/01/31/10-inspiring-websites</id>
+    <id>http://everythingisgray.herokuapp.com/2010/01/31/10-inspiring-websites</id>
     <content type="html"><![CDATA[<p>Lately I&rsquo;ve been spending quite a bit of time designing websites, whether it&rsquo;s WordPress theme development or Joomla! template design. A huge part of this process, (for me), is finding inspiration. Below are 10 carefully crafted examples of good web design that I&rsquo;ve been inspired by as of late.</p>
 
 <p><a href="http://www.31three.com/"><img src="http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-10.52.54-PM.png" alt="31THREE" /></a></p>
@@ -115,9 +115,9 @@
   
   <entry>
     <title type="html"><![CDATA[Webcomics]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/12/15/webcomics/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/12/15/webcomics/"/>
     <updated>2009-12-15T16:47:52-08:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/12/15/webcomics</id>
+    <id>http://everythingisgray.herokuapp.com/2009/12/15/webcomics</id>
     <content type="html"><![CDATA[<p>I have a confession to make: I love webcomics. I&rsquo;m quite the comics nerd in general, to be honest. It&rsquo;s possible that recently completing the first sequential drawing class offered at my university rekindled this fascination, but who&rsquo;s keeping track? If you&rsquo;re interested in finding out who&rsquo;s responsible for teaching me everything I know about the production of comics, visit my professor&rsquo;s site <a href="http://www.elephanteater.com/">elephanteater.com</a>. I&rsquo;ll have a few more samples from my comic posted in the portfolio section here shortly. Now back to webcomics, here are a few of my favoritesâ€¦</p>
 
 <p><a href="http://xkcd.com/">xkcd</a>
@@ -134,9 +134,9 @@
   
   <entry>
     <title type="html"><![CDATA[Check if your Mac is 64 bit]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/10/08/check-if-your-mac-is-64-bit/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/10/08/check-if-your-mac-is-64-bit/"/>
     <updated>2009-10-08T12:52:41-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/10/08/check-if-your-mac-is-64-bit</id>
+    <id>http://everythingisgray.herokuapp.com/2009/10/08/check-if-your-mac-is-64-bit</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s an easy way to determine whether or not your Mac is 64 bit capable. Open <code>Terminal.app</code>, which is located in <code>/Applications/Utilities</code> and type in</p>
 
 <p><code>sysctl hw |grep 64bit</code>.</p>
@@ -155,36 +155,36 @@
   
   <entry>
     <title type="html"><![CDATA[Life on Mars?]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/09/04/life-on-mars/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/09/04/life-on-mars/"/>
     <updated>2009-09-04T16:54:46-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/09/04/life-on-mars</id>
+    <id>http://everythingisgray.herokuapp.com/2009/09/04/life-on-mars</id>
     <content type="html"><![CDATA[<p>So it turns out life on Mars might actually be possible, thanks to an adorable little robot called <em><a href="http://www.treehugger.com/files/2009/08/robot-colonize-mars-plants.php">Le Petit Prince</a></em>. The robot, (which looks an awful lot like EVE from WALL-E), was designed to care for plants while searching for an environment with ample nutrients. The idea is to eventually produce enough oxygen on Mars to make it suitable for humans, but don&rsquo;t plan on moving anytime soon, it&rsquo;s just a concept.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[iDeals iPhone app]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/08/01/ideals-iphone-ap/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/08/01/ideals-iphone-ap/"/>
     <updated>2009-08-01T11:43:21-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/08/01/ideals-iphone-ap</id>
+    <id>http://everythingisgray.herokuapp.com/2009/08/01/ideals-iphone-ap</id>
     <content type="html"><![CDATA[<p>So I had the pleasure of meeting the gentleman that develops the <a href="http://fiveohfive.com/iDeals.html">iDeals</a> iPhone application a few days ago. iDeals was designed to provide an easy to use interface for tracking deals from Amazon, EB Games, Buy.com, Woot!, etc. The iDeals app pulls its information from <a href="http://www.dodtracker.com/">DODTracker.com</a> servers, but is far more enjoyable than visiting the site itself. Best of all it&rsquo;s free, go download it.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Snow Stack 3D CSS]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/22/snow-stack-3d-css/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/07/22/snow-stack-3d-css/"/>
     <updated>2009-07-22T18:36:30-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/07/22/snow-stack-3d-css</id>
+    <id>http://everythingisgray.herokuapp.com/2009/07/22/snow-stack-3d-css</id>
     <content type="html"><![CDATA[<p>A gentleman by the name of Charles Ying of <a href="http://www.satine.org/">Satine.org</a> has developed a new 3D CSS visual effects demonstration called <a href="http://www.satine.org/archives/2009/07/11/snow-stack-is-here/">Snow Stack</a>, which runs entirely on JavaScript, native WebKit CSS extensions, and XHTML/HTML. If you&rsquo;re familiar with Cover Flow/Core Animation on the Mac you&rsquo;ll immediately recognize Snow Stack. In order to run the demo you&rsquo;ll need either the <em>Snow Leopard Beta + Safari</em> <strong>or</strong> <em>Leopard + the latest nightly build of WebKit</em>. Either way, it&rsquo;s quite fascinating to think that this is all being done in the browser.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Cappuccino Web Framework]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/20/cappuccino-web-framework/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/07/20/cappuccino-web-framework/"/>
     <updated>2009-07-20T19:31:43-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/07/20/cappuccino-web-framework</id>
+    <id>http://everythingisgray.herokuapp.com/2009/07/20/cappuccino-web-framework</id>
     <content type="html"><![CDATA[<p>So lately I&rsquo;ve been playing around with the <a href="http://cappuccino.org/">Cappuccino web framework</a> and a nifty little programming language called Objective-J. The Cappuccino framework allows you to create desktop class applications for the browser, and gives you the ability to run these applications on the desktop, (similar to <a href="http://www.adobe.com/products/air/">Adobe AIR</a>). One of the many benefits of being able to create applications that run on the desktop is having the ability to run the application while offline.</p>
 
 <p>The interesting thing about Objective-J is that it is based on Objective-C, but any valid JavaScript code is accepted as valid Objective-J code. A fun way to look at it is that Objective-J is to JavaScript as Objective-C is to C.</p>
@@ -199,9 +199,9 @@
   
   <entry>
     <title type="html"><![CDATA[XHTML is dead, (but don't worry)]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/07/02/xhtml-is-dead-but-dont-worry/"/>
     <updated>2009-07-02T16:06:10-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/07/02/xhtml-is-dead-but-dont-worry</id>
+    <id>http://everythingisgray.herokuapp.com/2009/07/02/xhtml-is-dead-but-dont-worry</id>
     <content type="html"><![CDATA[<p><strike>Today</strike> On July 2, 2009, the W3C announced that the XHTML 2 working group will cease development by the end of 2009. Of course all this means is that more time, effort, and man power will be focused on the HTML 5 specification, which is going to drastically change the web, (just take a look at <a href="http://wave.google.com/">Google Wave</a>). This also means that we won&rsquo;t have any spec wars to deal with, which are almost as bad as format wars, (HD DVD vs. Blu-Ray anyone?)</p>
 
 <p>From the W3C:</p>
@@ -214,9 +214,9 @@
   
   <entry>
     <title type="html"><![CDATA[FlintCast Episode 2 now on iTunes]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/07/01/flintcast-episode-2-now-on-itunes/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/07/01/flintcast-episode-2-now-on-itunes/"/>
     <updated>2009-07-01T16:41:20-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/07/01/flintcast-episode-2-now-on-itunes</id>
+    <id>http://everythingisgray.herokuapp.com/2009/07/01/flintcast-episode-2-now-on-itunes</id>
     <content type="html"><![CDATA[<p>So I&rsquo;ve managed to get the latest episode of my podcast, <a href="http://flintcast.com/">FlintCast</a>, on iTunes.</p>
 
 <p>I spent a few hours trying to figure out just why it wasn&rsquo;t showing up, turns out I was just impatient, (pinging the servers didn&rsquo;t seem to help, either). Troubleshooting feeds surely can be a headache.</p>
@@ -227,9 +227,9 @@
   
   <entry>
     <title type="html"><![CDATA[Logo guessing game]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/06/20/logo-guessing-game/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/06/20/logo-guessing-game/"/>
     <updated>2009-06-20T17:33:53-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/06/20/logo-guessing-game</id>
+    <id>http://everythingisgray.herokuapp.com/2009/06/20/logo-guessing-game</id>
     <content type="html"><![CDATA[<p>How quickly can you recognize a corporate identity? I recently found <a href="http://www.graphicdesignblog.org/famous-logo-game/">an article on GraphicDesignBlog.org</a> that makes an interesting game out of it. They display a small fraction of the logo and you are to guess the corporation associated with that identity. I knew all but three right off the bat. Can you guess which one&rsquo;s I missed?</p>
 
 <p>I find that the best and most memorable logos almost always pass this test. Number six is a great example, (only a miniscule portion of the logo is displayed, yet I was able to determine the identity almost immediately).</p>
@@ -238,27 +238,27 @@
   
   <entry>
     <title type="html"><![CDATA[American Airlines site redesign]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/06/16/american-airlines-site-redesign/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/06/16/american-airlines-site-redesign/"/>
     <updated>2009-06-16T18:54:48-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/06/16/american-airlines-site-redesign</id>
+    <id>http://everythingisgray.herokuapp.com/2009/06/16/american-airlines-site-redesign</id>
     <content type="html"><![CDATA[<p>I heard about a week ago that someone had done a mockup of a possible redesign for the <strong>American Airlines</strong> website, and the first thing I did was take a look at <a href="http://www.aa.com/aa/homePage.do">their existing site</a>. It&rsquo;s unbelievable to me that such a huge corporation with so many resources could produce such a terrible, unusable site. I for one haven&rsquo;t ever needed to use the site, but a user interface designer named Dustin Curtis has, (which inspired him to create the mockup.) The redesign is visually interesting as well as functional. You should read more about it/take a look at it <a href="http://dustincurtis.com/dear_american_airlines.html">here</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[NextGEN: Cool WordPress plugin]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/06/15/nextgen-cool-wordpress-gallery-plugin/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/06/15/nextgen-cool-wordpress-gallery-plugin/"/>
     <updated>2009-06-15T18:45:43-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/06/15/nextgen-cool-wordpress-gallery-plugin</id>
+    <id>http://everythingisgray.herokuapp.com/2009/06/15/nextgen-cool-wordpress-gallery-plugin</id>
     <content type="html"><![CDATA[<p>After about a month of searching for a WordPress image gallery plugin that is both powerful and easy to use, I came acrossÂ <a href="http://wordpress.org/extend/plugins/nextgen-gallery/">NextGEN Gallery</a>. This plugin is extremely easy to implement, and once activated is easy to maintain/update. I like the fact that you can create multiple galleries and group them together in albums, too. It&rsquo;s also a breeze to update a gallery or album once it&rsquo;s been posted. I&rsquo;m currently using this plugin for my portfolio, (which should include more than a few images soon), and overall I&rsquo;m very pleased.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[FlintCast is now available on iTunes]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/06/11/flintcast-is-now-available-on-itunes/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/06/11/flintcast-is-now-available-on-itunes/"/>
     <updated>2009-06-11T15:53:29-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/06/11/flintcast-is-now-available-on-itunes</id>
+    <id>http://everythingisgray.herokuapp.com/2009/06/11/flintcast-is-now-available-on-itunes</id>
     <content type="html"><![CDATA[<p>The folks at iTunes recently accepted my new podcast, which is called <a href="http://flintcast.com/">FlintCast</a>. It is hosted by myself and Vanna Ward.</p>
 
 <p>FlintCast aims to cover fun and interesting events happening in Flint, MI. The podcast is currently audio only but we&rsquo;ll be including video in the feed in the near future. If you&rsquo;d like to download individual episodes or subscribe you can do so now <a href="http://bit.ly/oxFPy">on iTunes</a>.</p>
@@ -267,9 +267,9 @@
   
   <entry>
     <title type="html"><![CDATA[FlintCast Episode 1 now available]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/06/03/flintcast-episode-1-now-available/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/06/03/flintcast-episode-1-now-available/"/>
     <updated>2009-06-03T17:14:00-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/06/03/flintcast-episode-1-now-available</id>
+    <id>http://everythingisgray.herokuapp.com/2009/06/03/flintcast-episode-1-now-available</id>
     <content type="html"><![CDATA[<p>Today I released the first episode of <a href="http://flintcast.com/">FlintCast</a>, a podcast that covers events happening in Flint, MI. I am co-hosting this podcast with <a href="http://gallery.me.com/afterbirth">Vanna Ward</a>. I apologize for how rough the first episode is, just keep in mind that the entire podcast was created in less than one week, (from conception to execution). You can check it out <a href="http://flintcast.com/">here</a>.</p>
 
 <p>P.S. We&rsquo;ll have the feed up on iTunes soon, (it&rsquo;s already been submitted).</p>
@@ -278,9 +278,9 @@
   
   <entry>
     <title type="html"><![CDATA[Version 0.5 of Simplixity is now live]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/05/21/version-05-simplixity-now-live/"/>
     <updated>2009-05-21T17:44:59-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/05/21/version-05-simplixity-now-live</id>
+    <id>http://everythingisgray.herokuapp.com/2009/05/21/version-05-simplixity-now-live</id>
     <content type="html"><![CDATA[<p>Today I submitted an update to my WordPress theme Simplixity, which improves how images are handled in posts and fixes an issue that existed while no widgets were activated in the admin panel. You can view and download it <a href="http://wordpress.org/extend/themes/simplixity">here</a>.</p>
 
 <p>I&rsquo;ve already begun working on the next update, which should include an easily customizable client.css file, for making quick changes to the theme.</p>

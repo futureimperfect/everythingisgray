@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iPhone | Everything is Gray]]></title>
   <link href="http://everythingisgray.herokuapp.com/blog/categories/iphone/atom.xml" rel="self"/>
   <link href="http://everythingisgray.herokuapp.com/"/>
-  <updated>2013-05-22T22:43:26-07:00</updated>
+  <updated>2013-05-25T16:28:11-07:00</updated>
   <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[iDeals iPhone app]]></title>
-    <link href="http://everythingisgray.herokuapp.com/blog/2009/08/01/ideals-iphone-ap/"/>
+    <link href="http://everythingisgray.herokuapp.com/2009/08/01/ideals-iphone-ap/"/>
     <updated>2009-08-01T11:43:21-07:00</updated>
-    <id>http://everythingisgray.herokuapp.com/blog/2009/08/01/ideals-iphone-ap</id>
+    <id>http://everythingisgray.herokuapp.com/2009/08/01/ideals-iphone-ap</id>
     <content type="html"><![CDATA[<p>So I had the pleasure of meeting the gentleman that develops the <a href="http://fiveohfive.com/iDeals.html">iDeals</a> iPhone application a few days ago. iDeals was designed to provide an easy to use interface for tracking deals from Amazon, EB Games, Buy.com, Woot!, etc. The iDeals app pulls its information from <a href="http://www.dodtracker.com/">DODTracker.com</a> servers, but is far more enjoyable than visiting the site itself. Best of all it&rsquo;s free, go download it.</p>
 ]]></content>
   </entry>
