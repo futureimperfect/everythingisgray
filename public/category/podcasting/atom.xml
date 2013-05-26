@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Podcasting | Everything is Gray]]></title>
+  <link href="http://everythingisgray.herokuapp.com/category/podcasting/atom.xml" rel="self"/>
+  <link href="http://everythingisgray.herokuapp.com/"/>
+  <updated>2013-05-25T18:06:14-07:00</updated>
+  <id>http://everythingisgray.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[James Barclay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[FlintCast Episode 2 now on iTunes]]></title>
+    <link href="http://everythingisgray.herokuapp.com/2009/07/01/flintcast-episode-2-now-on-itunes/"/>
+    <updated>2009-07-01T16:41:20-07:00</updated>
+    <id>http://everythingisgray.herokuapp.com/2009/07/01/flintcast-episode-2-now-on-itunes</id>
+    <content type="html"><![CDATA[<p>So I&rsquo;ve managed to get the latest episode of my podcast, <a href="http://flintcast.com/">FlintCast</a>, on iTunes.</p>
+
+<p>I spent a few hours trying to figure out just why it wasn&rsquo;t showing up, turns out I was just impatient, (pinging the servers didn&rsquo;t seem to help, either). Troubleshooting feeds surely can be a headache.</p>
+
+<p>If you&rsquo;d like to download individual episodes or subscribe you can do so <a href="http://bit.ly/oxFPy">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[FlintCast is now available on iTunes]]></title>
+    <link href="http://everythingisgray.herokuapp.com/2009/06/11/flintcast-is-now-available-on-itunes/"/>
+    <updated>2009-06-11T15:53:29-07:00</updated>
+    <id>http://everythingisgray.herokuapp.com/2009/06/11/flintcast-is-now-available-on-itunes</id>
+    <content type="html"><![CDATA[<p>The folks at iTunes recently accepted my new podcast, which is called <a href="http://flintcast.com/">FlintCast</a>. It is hosted by myself and Vanna Ward.</p>
+
+<p>FlintCast aims to cover fun and interesting events happening in Flint, MI. The podcast is currently audio only but we&rsquo;ll be including video in the feed in the near future. If you&rsquo;d like to download individual episodes or subscribe you can do so now <a href="http://bit.ly/oxFPy">on iTunes</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[FlintCast Episode 1 now available]]></title>
+    <link href="http://everythingisgray.herokuapp.com/2009/06/03/flintcast-episode-1-now-available/"/>
+    <updated>2009-06-03T17:14:00-07:00</updated>
+    <id>http://everythingisgray.herokuapp.com/2009/06/03/flintcast-episode-1-now-available</id>
+    <content type="html"><![CDATA[<p>Today I released the first episode of <a href="http://flintcast.com/">FlintCast</a>, a podcast that covers events happening in Flint, MI. I am co-hosting this podcast with <a href="http://gallery.me.com/afterbirth">Vanna Ward</a>. I apologize for how rough the first episode is, just keep in mind that the entire podcast was created in less than one week, (from conception to execution). You can check it out <a href="http://flintcast.com/">here</a>.</p>
+
+<p>P.S. We&rsquo;ll have the feed up on iTunes soon, (it&rsquo;s already been submitted).</p>
+]]></content>
+  </entry>
+  
+</feed>
