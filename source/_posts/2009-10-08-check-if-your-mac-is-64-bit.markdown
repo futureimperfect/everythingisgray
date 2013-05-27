@@ -16,7 +16,7 @@ tags:
 
 Here's an easy way to determine whether or not your Mac is 64 bit capable. Open Terminal.app, which is located in `/Applications/Utilities` and type in:
 
-`sysctl hw |grep 64bit`.
+`sysctl hw | grep 64bit`
 
 If your machine is 64 bit capable, the result will be
 

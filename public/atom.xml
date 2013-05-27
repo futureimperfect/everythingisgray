@@ -4,7 +4,7 @@
   <title><![CDATA[Everything is Gray]]></title>
   <link href="http://everythingisgray.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://everythingisgray.herokuapp.com/"/>
-  <updated>2013-05-27T15:23:59-07:00</updated>
+  <updated>2013-05-27T15:44:06-07:00</updated>
   <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
@@ -138,7 +138,7 @@
     <id>http://everythingisgray.herokuapp.com/2009/10/08/check-if-your-mac-is-64-bit</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s an easy way to determine whether or not your Mac is 64 bit capable. Open Terminal.app, which is located in <code>/Applications/Utilities</code> and type in:</p>
 
-<p><code>sysctl hw |grep 64bit</code>.</p>
+<p><code>sysctl hw | grep 64bit</code></p>
 
 <p>If your machine is 64 bit capable, the result will be</p>
 
