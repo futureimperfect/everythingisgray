@@ -4,7 +4,7 @@
   <title><![CDATA[Category: OS X | Everything is Gray]]></title>
   <link href="http://everythingisgray.herokuapp.com/category/os-x/atom.xml" rel="self"/>
   <link href="http://everythingisgray.herokuapp.com/"/>
-  <updated>2013-05-26T23:27:12-07:00</updated>
+  <updated>2013-05-27T00:07:39-07:00</updated>
   <id>http://everythingisgray.herokuapp.com/</id>
   <author>
     <name><![CDATA[James Barclay]]></name>
@@ -39,7 +39,7 @@
     <link href="http://everythingisgray.herokuapp.com/2010/02/15/configure-archive-utility-in-mac-os-x/"/>
     <updated>2010-02-15T20:46:41-08:00</updated>
     <id>http://everythingisgray.herokuapp.com/2010/02/15/configure-archive-utility-in-mac-os-x</id>
-    <content type="html"><![CDATA[<p>Having recently purchased a new MacBook Pro and electing to skip the option of running <a href="http://en.wikipedia.org/wiki/Migration_Assistant_(Apple">Migration Assistant</a>) to transfer my data and settings, I noticed that a few applications were behaving differently. Over the years I&rsquo;ve configured quite a few things on my Mac, and eventually I became accustomed to said customizations. One of the first things I noticed was that when I would unarchive a zip file, the compressed file would stay put. I remembered that a few years ago I learned of a cool way to configure Mac OS X&rsquo;s built-in Archive Utility, (using a System Preference pane), so I immediately went digging. To do this, simply navigate to <code>therootofyourharddrive/System/Library/CoreServices</code>. From there right or control click on Archive Utility.app, and select &ldquo;Show Package Contents.&rdquo; A new window will open containing a folder named <code>Contents</code>, within which you&rsquo;ll find <code>Resources</code>, and finally <code>Archives.prefPane</code>. Opening this preference pane will result in System Preferences.app asking if you&rsquo;d like to install for all users or for this user only. Voila! Now you can tell Archive Utility to delete the archive after expanding it.</p>
+    <content type="html"><![CDATA[<p>Having recently purchased a new MacBook Pro and electing to skip the option of running <a href="http://en.wikipedia.org/wiki/Migration_Assistant_(Apple">Migration Assistant</a>) to transfer my data and settings, I noticed that a few applications were behaving differently. Over the years I&rsquo;ve configured quite a few things on my Mac, and eventually I became accustomed to said customizations. One of the first things I noticed was that when I would unarchive a zip file, the compressed file would stay put. I remembered that a few years ago I learned of a cool way to configure Mac OS X&rsquo;s built-in Archive Utility, (using a System Preference pane), so I immediately went digging. To do this, simply navigate to <code>/System/Library/CoreServices</code>. From there right or control click on Archive Utility.app, and select &ldquo;Show Package Contents.&rdquo; A new window will open containing a folder named <code>Contents</code>, within which you&rsquo;ll find <code>Resources</code>, and finally <code>Archives.prefPane</code>. Opening this preference pane will result in System Preferences.app asking if you&rsquo;d like to install for all users or for this user only. Voila! Now you can tell Archive Utility to delete the archive after expanding it.</p>
 ]]></content>
   </entry>
   
@@ -48,7 +48,7 @@
     <link href="http://everythingisgray.herokuapp.com/2009/10/08/check-if-your-mac-is-64-bit/"/>
     <updated>2009-10-08T12:52:41-07:00</updated>
     <id>http://everythingisgray.herokuapp.com/2009/10/08/check-if-your-mac-is-64-bit</id>
-    <content type="html"><![CDATA[<p>Here&rsquo;s an easy way to determine whether or not your Mac is 64 bit capable. Open <code>Terminal.app</code>, which is located in <code>/Applications/Utilities</code> and type in</p>
+    <content type="html"><![CDATA[<p>Here&rsquo;s an easy way to determine whether or not your Mac is 64 bit capable. Open Terminal.app, which is located in <code>/Applications/Utilities</code> and type in:</p>
 
 <p><code>sysctl hw |grep 64bit</code>.</p>
 
