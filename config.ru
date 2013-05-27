@@ -20,8 +20,6 @@ use Rack::Rewrite do
   r301 %r{^/tag/web-development/?$}, '/category/web-development/'
   r301 %r{^/tag/wordpress/?$}, '/category/wordpress/'
   r301 %r{^/[0-9]{4}/[0-9]{2}/[0-9]{2}/}, '/archives/'
-  r301 %r{^/[0-9]{4}/[0-9]{2}/}, '/archives/'
-  r301 %r{^/[0-9]{4}/}, '/archives/'
   r301 %r{^/how-to-installing-freebsd-as-a-guest-os-in-parallels-4/?$}, '/2009/04/16/how-to-installing-freebsd-as-a-guest-os-in-parallels-4/'
 end
 
