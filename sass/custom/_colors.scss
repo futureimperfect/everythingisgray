@@ -20,6 +20,14 @@ $footer-bg: desaturate(lighten(#881616, 18), 5) !default;
 //$footer-bg-front: image-url('noise.png');
 //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
 
+// Footer Colors
+$footer-color: #ddd;
+
+// Main Link Colors
+$link-color: lighten(#881616, 3);
+$link-color-hover: adjust-color($link-color, $lightness: 5, $saturation: 15);
+$link-color-visited: adjust-color($link-color, $hue: 50, $lightness: -4);
+$link-color-active: adjust-color($link-color-hover, $lightness: -15);
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 //$solarized: light;
