@@ -9,4 +9,4 @@ sidebar: collapse
 wordpress_id: 2
 ---
 
-Hello, I'm a 24 year old designer and technology enthusiast from Flint, MI USA. I am interested in web design/development, art, and photography. I am currently a visual communications major at a university in Flint, MI, and occasionally do freelance design work. You can contact me via email at james [at] everythingisgray [dot] com.
+Hi there! My name is James Barclay. I'm an IT consultant, designer, developer, and father. I live and work in the San Francisco Bay Area. I'm interested in art, open-source, OS X, mobility, and security. You can contact me via email at james [at] thisdomain.
