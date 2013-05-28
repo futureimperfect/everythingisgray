@@ -12,3 +12,26 @@ body > nav {
     }
   }
 }
+
+article {
+  header {
+    p {
+      &.meta {
+        font-size: .7em;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  article {
+    header {
+      p {
+        &.meta {
+          font-size: .9em;
+        }
+      }
+    }
+  }
+}
+
