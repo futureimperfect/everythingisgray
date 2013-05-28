@@ -5,6 +5,7 @@ date: 2008-10-31 02:32:37
 layout: page
 slug: about
 title: About
+sidebar: collapse
 wordpress_id: 2
 ---
 
