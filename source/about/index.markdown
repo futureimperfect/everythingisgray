@@ -1,11 +1,10 @@
 ---
-author: James Barclay
 comments: false
-date: 2008-10-31 02:32:37
 layout: page
 slug: about
 title: About
 sidebar: collapse
+sharing: false
 wordpress_id: 2
 ---
 

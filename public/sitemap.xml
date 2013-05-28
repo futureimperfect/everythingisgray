@@ -163,8 +163,12 @@
         <lastmod>2013-05-25T20:54:02-07:00</lastmod>
     </url>
     <url>
+        <loc>http://everythingisgray.herokuapp.com/404.html</loc>
+        <lastmod>2013-05-27T20:38:39-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://everythingisgray.herokuapp.com/about/</loc>
-        <lastmod>2013-05-27T20:09:17-07:00</lastmod>
+        <lastmod>2013-05-27T20:36:06-07:00</lastmod>
     </url>
     <url>
         <loc>http://everythingisgray.herokuapp.com/archives/</loc>
@@ -176,7 +180,7 @@
     </url>
     <url>
         <loc>http://everythingisgray.herokuapp.com/portfolio/</loc>
-        <lastmod>2013-05-27T19:27:35-07:00</lastmod>
+        <lastmod>2013-05-27T20:35:24-07:00</lastmod>
     </url>
     <url>
         <loc>http://everythingisgray.herokuapp.com/robots.txt</loc>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "404"
+comments: false
+sharing: false
+footer: true
+sidebar: collapse
+---
+
+I'm sorry, but the page you're looking for doesn't exist.
+
+Perhaps try searching in the box above?
