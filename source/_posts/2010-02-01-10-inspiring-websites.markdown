@@ -37,7 +37,3 @@ Lately I've been spending quite a bit of time designing websites, whether it's W
 [![Ed Merritt](http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.14.25-PM.png)](http://www.edmerritt.com/)
 
 [![ThemeShaper](http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.10.57-PM.png)](http://themeshaper.com/)
-
-**Test Below**
-
-{% img fancybox http://everythingisgray.com/wp-content/uploads/2010/02/Screen-shot-2010-01-31-at-5.10.57-PM.png 120 %}
