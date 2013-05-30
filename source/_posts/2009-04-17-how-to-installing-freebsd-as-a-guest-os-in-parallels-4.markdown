@@ -34,4 +34,4 @@ The last step is to choose your installation media. Notice that there is no imag
 
 That's it. You should be up and running with FreeBSD as a guest OS.
 
-![Installing FreeBSD]({% img fancybox http://everythingisgray.com/wp-content/uploads/2009/04/installing_bsd.png %})
+{% img fancybox http://everythingisgray.com/wp-content/uploads/2009/04/installing_bsd.png %}
