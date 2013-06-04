@@ -3,7 +3,6 @@ comments: false
 layout: page
 slug: about
 title: About
-sidebar: collapse
 sharing: false
 wordpress_id: 2
 ---

@@ -56,7 +56,7 @@ default_asides: [custom/asides/hello.html, asides/recent_posts.html, asides/gith
 # and add an array with the asides you want to use.
 # blog_index_asides:
 # post_asides:
-# page_asides:
+page_asides: []
 
 # ----------------------- #
 #   3rd Party Settings    #
