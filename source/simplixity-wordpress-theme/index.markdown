@@ -14,9 +14,3 @@ Simplixity is an elegantly simple, two-column WordPress theme. Simplixity was de
 [Download it here.](http://wordpress.org/extend/themes/simplixity/)
 
 [![Simplixity WordPress theme](http://everythingisgray.com/wp-content/uploads/2009/04/screenshot.png)](http://wordpress.org/extend/themes/simplixity/)
-
-
-
-
-![](https://www.paypal.com/en_US/i/scr/pixel.gif)
-
