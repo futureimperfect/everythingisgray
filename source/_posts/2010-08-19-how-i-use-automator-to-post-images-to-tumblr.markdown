@@ -4,7 +4,7 @@ comments: true
 date: 2010-08-19 04:14:33
 layout: post
 slug: how-i-use-automator-to-post-images-to-tumblr
-title: Automatically Post Images to Tumblr Using Automator
+title: Automatically Post Images to Tumblr with Automator
 wordpress_id: 199
 categories:
 - Art
