@@ -2,17 +2,18 @@
 comments: false
 layout: page
 slug: about
-title: About
+title: About James
 sharing: false
 wordpress_id: 2
-sidebar: collapse
 ---
+
+![Me][me]
 
 Hi there! My name is James Barclay. I'm an [IT consultant][1], designer, developer, and father. I live and work in the San Francisco Bay Area. I'm interested in art, open-source, OS X, software development, and security. I work behind the scenes at a lot of awesome companies, and I frequently get to solve interesting problems for them.
 
-From April 2010 - April 2011 I drew something every day and posted the drawings on my [Tumbleog][2]. I've also made [a][3] [few][4] [comics][5], designed a [few][6] [Websites][7], and started and co-hosted a podcast about my former hometown of Flint, MI.
+From April 2010 - April 2011 I drew a trading card every day and posted said drawings to my [Tumbleog][2]. I've also made [a][3] [few][4] [comics][5], designed a [few][6] [Websites][7], and started and co-hosted a podcast about my former hometown of Flint, MI.
 
-You can contact me via email at james [at] thisdomain. I can also be found as "futureimperfect" on [Twitter][8], [GitHub][9], and many other places on the Web.
+You can contact me via email at james [at] thisdomain. I can also be found as "futureimperfect" on [Twitter][8], [GitHub][9], and many other places around the Web.
 
 [1]: http://lindegroup.com
 [2]: http://koobtra.com/
@@ -23,3 +24,4 @@ You can contact me via email at james [at] thisdomain. I can also be found as "f
 [7]: http://ipad.wharton.upenn.edu/
 [8]: https://twitter.com/futureimperfect
 [9]: https://github.com/futureimperfect
+[me]: ../images/me.jpg

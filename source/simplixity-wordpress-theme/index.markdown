@@ -6,7 +6,6 @@ layout: page
 slug: simplixity-wordpress-theme
 title: '"Simplixity" WordPress theme'
 wordpress_id: 28
-sidebar: collapse
 ---
 
 Simplixity is an elegantly simple, two-column WordPress theme. Simplixity was designed with web-standards in mind, and generates valid XHTML pages, (the CSS is valid, too). It's a breeze to modify Simplixity, just edit the style.css file. Simplixity does not use any inline HTML images, which makes it a great template for building your own creation.
