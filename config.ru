@@ -6,6 +6,8 @@ require 'rack-rewrite'
 $root = ::File.dirname(__FILE__)
 
 use Rack::Rewrite do
+  r301 /.*/,  Proc.new {|path, rack_env| "http://#{rack_env['SERVER_NAME'].gsub(/www\./i, '') }#{path}" },
+      :if => Proc.new {|rack_env| rack_env['SERVER_NAME'] =~ /www\./i}
   r301 %r{^/tag/art/?$}, '/category/art/'
   r301 %r{^/tag/design/?$}, '/category/design/'
   r301 %r{^/tag/iphone/?$}, '/category/iphone/'
