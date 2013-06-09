@@ -15,6 +15,8 @@ From April 2010 - April 2011 I drew a trading card every day and posted said dra
 
 You can contact me via email at james [at] thisdomain. I can also be found as "futureimperfect" on [Twitter][8], [GitHub][9], and many other places around the Web.
 
+Download my résumé: ( [**PDF**](../downloads/resume.pdf) )
+
 [1]: http://lindegroup.com
 [2]: http://koobtra.com/
 [3]: http://magic.lib.msu.edu/search~S23?/aBarclay%2C+James./abarclay+james/1%2C4%2C7%2CB/frameset&FF=abarclay+james&3%2C%2C3
