@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-04-17 00:26:34
+date: 2009-04-17
 layout: post
 slug: loopthing-uses-simplixity-theme-for-their-blog
 title: Loopthing uses "Simplixity" theme for their blog

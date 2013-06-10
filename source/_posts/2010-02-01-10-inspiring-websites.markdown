@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2010-02-01 02:57:07
+date: 2010-02-01
 layout: post
 slug: 10-inspiring-websites
 title: 10 Inspiring Websites

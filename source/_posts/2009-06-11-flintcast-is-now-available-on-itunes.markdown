@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-06-11 22:53:29
+date: 2009-06-11
 layout: post
 slug: flintcast-is-now-available-on-itunes
 title: FlintCast is now available on iTunes

@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-05-02 19:35:16
+date: 2009-05-02
 layout: post
 slug: do-hosted-solutions-threaten-wordpress-and-other-blogging-platforms
 title: Do hosted solutions threaten WordPress and other blogging platforms?

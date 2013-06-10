@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-04-08 01:52:34
+date: 2009-04-08
 layout: post
 slug: modifications-of-simplixity-wordpress-theme
 title: Modification of "Simplixity" WordPress theme

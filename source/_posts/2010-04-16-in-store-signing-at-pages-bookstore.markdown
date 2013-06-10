@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2010-04-16 18:09:13
+date: 2010-04-16
 layout: post
 slug: in-store-signing-at-pages-bookstore
 title: In-Store Signing at Pages Bookstore

@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-03-31 02:28:07
+date: 2009-03-31
 layout: post
 slug: wordpress-theme-simplixity-is-now-available-on-the-wordpress-theme-directory
 title: WordPress theme "Simplixity" now available on the WordPress theme directory

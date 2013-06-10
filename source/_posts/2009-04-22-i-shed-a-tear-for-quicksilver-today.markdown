@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-04-22 19:25:56
+date: 2009-04-22
 layout: post
 slug: i-shed-a-tear-for-quicksilver-today
 title: I shed a tear for Quicksilver today

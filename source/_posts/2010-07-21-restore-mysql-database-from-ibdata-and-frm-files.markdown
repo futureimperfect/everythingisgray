@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2010-07-21 01:48:54
+date: 2010-07-21
 layout: post
 slug: restore-mysql-database-from-ibdata-and-frm-files
 title: Restore MySQL Database from ibdata and .frm Files

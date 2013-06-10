@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-07-01 23:41:20
+date: 2009-07-01
 layout: post
 slug: flintcast-episode-2-now-on-itunes
 title: FlintCast Episode 2 now on iTunes

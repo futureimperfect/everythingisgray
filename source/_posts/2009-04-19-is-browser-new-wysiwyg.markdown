@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-04-19 01:39:15
+date: 2009-04-19
 layout: post
 slug: is-browser-new-wysiwyg
 title: Is the browser the new WYSIWYG?

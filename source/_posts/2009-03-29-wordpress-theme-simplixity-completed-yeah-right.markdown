@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-03-29 00:21:16
+date: 2009-03-29
 layout: post
 slug: wordpress-theme-simplixity-completed-yeah-right
 title: WordPress theme "Simplixity" completed... yeah right

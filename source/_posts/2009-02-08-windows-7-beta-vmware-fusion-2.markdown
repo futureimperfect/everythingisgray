@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-02-08 03:34:18
+date: 2009-02-08
 layout: post
 slug: windows-7-beta-vmware-fusion-2
 title: Windows 7 beta + VMware Fusion 2

@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-08-01 18:43:21
+date: 2009-08-01
 layout: post
 slug: ideals-iphone-ap
 title: iDeals iPhone app

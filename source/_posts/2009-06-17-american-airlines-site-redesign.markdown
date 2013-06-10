@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-06-17 01:54:48
+date: 2009-06-17
 layout: post
 slug: american-airlines-site-redesign
 title: American Airlines site redesign

@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-07-02 23:06:10
+date: 2009-07-02
 layout: post
 slug: xhtml-is-dead-but-dont-worry
 title: XHTML is dead, (but don't worry)

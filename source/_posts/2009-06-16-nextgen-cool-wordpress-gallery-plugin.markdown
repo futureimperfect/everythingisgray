@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-06-16 01:45:43
+date: 2009-06-16
 layout: post
 slug: nextgen-cool-wordpress-gallery-plugin
 title: 'NextGEN: Cool WordPress plugin'

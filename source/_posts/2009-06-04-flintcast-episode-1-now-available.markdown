@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-06-04 00:14:00
+date: 2009-06-04
 layout: post
 slug: flintcast-episode-1-now-available
 title: FlintCast Episode 1 now available

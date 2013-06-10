@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2010-08-19 04:14:33
+date: 2010-08-19
 layout: post
 slug: how-i-use-automator-to-post-images-to-tumblr
 title: Automatically Post Images to Tumblr with Automator

@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-10-08 19:52:41
+date: 2009-10-08
 layout: post
 slug: check-if-your-mac-is-64-bit
 title: Check if your Mac is 64 bit

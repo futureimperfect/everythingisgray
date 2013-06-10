@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2010-02-16 04:46:41
+date: 2010-02-16
 layout: post
 slug: configure-archive-utility-in-mac-os-x
 title: Configure Archive Utility in Mac OS X

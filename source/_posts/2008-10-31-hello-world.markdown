@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2008-10-31 02:32:37
+date: 2008-10-31
 layout: post
 slug: hello-world
 title: /*Hello world*/

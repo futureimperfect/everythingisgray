@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-07-21 02:31:43
+date: 2009-07-21
 layout: post
 slug: cappuccino-web-framework
 title: Cappuccino Web Framework

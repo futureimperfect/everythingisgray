@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-05-22 00:44:59
+date: 2009-05-22
 layout: post
 slug: version-05-simplixity-now-live
 title: Version 0.5 of Simplixity is now live

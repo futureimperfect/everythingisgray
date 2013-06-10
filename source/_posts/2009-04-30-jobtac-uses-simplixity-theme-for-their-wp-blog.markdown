@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-04-30 19:08:40
+date: 2009-04-30
 layout: post
 slug: jobtac-uses-simplixity-theme-for-their-wp-blog
 title: Jobtac uses "Simplixity" theme for their WP blog

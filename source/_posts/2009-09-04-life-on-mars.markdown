@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-09-04 23:54:46
+date: 2009-09-04
 layout: post
 slug: life-on-mars
 title: Life on Mars?
