@@ -10,6 +10,6 @@ wordpress_id: 28
 
 Simplixity is an elegantly simple, two-column WordPress theme. Simplixity was designed with web-standards in mind, and generates valid XHTML pages, (the CSS is valid, too). It's a breeze to modify Simplixity, just edit the style.css file. Simplixity does not use any inline HTML images, which makes it a great template for building your own creation.
 
-[Download it here.](http://wordpress.org/extend/themes/simplixity/)
+[**Download it here**](http://wordpress.org/extend/themes/simplixity/)
 
-[![Simplixity WordPress theme](http://everythingisgray.com/wp-content/uploads/2009/04/screenshot.png)](http://wordpress.org/extend/themes/simplixity/)
+[![Simplixity WordPress theme](/images/simplixity-wordpress-theme/screenshot.png)](http://wordpress.org/extend/themes/simplixity/)

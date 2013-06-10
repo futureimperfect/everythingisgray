@@ -15,7 +15,7 @@ From April 2010 - April 2011 I drew a trading card every day and posted said dra
 
 You can contact me via email at james [at] thisdomain. I can also be found as "futureimperfect" on [Twitter][8], [GitHub][9], and many other places around the Web.
 
-Download my résumé: ( [**PDF**](../downloads/resume.pdf) )
+Download my résumé ( [**PDF**](/downloads/resume.pdf) )
 
 [1]: http://lindegroup.com
 [2]: http://koobtra.com/
@@ -26,4 +26,4 @@ Download my résumé: ( [**PDF**](../downloads/resume.pdf) )
 [7]: http://ipad.wharton.upenn.edu/
 [8]: https://twitter.com/futureimperfect
 [9]: https://github.com/futureimperfect
-[me]: ../images/me.jpg
+[me]: /images/me.jpg
