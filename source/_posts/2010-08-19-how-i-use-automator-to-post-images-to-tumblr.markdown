@@ -16,7 +16,7 @@ tags:
 - Technology
 ---
 
-For the past few months I have been drawing everyday on 2.5 x 3.5 inch pieces of Bristol board as part of my most recent '[kooBtrA](http://koobtra.com/)' project. kooBtrA = ArtBook in reverse, as I plan to self publish a full-color book containing all the images sometime after one year passes.
+For the past few months I have been drawing every day on 2.5 x 3.5 inch pieces of Bristol board as part of my most recent '[kooBtrA](http://koobtra.com/)' project. kooBtrA = ArtBook in reverse, as I plan to self publish a full-color book containing all the images sometime after one year passes.
 
 As you might imagine, finding the time to draw every day can be challenging. Not to mention the fact that I've also been posting these images to my Tumbleog; which includes scanning, resizing, and logging into Tumblr to post the image along with a description and tag. This became mundane after the first few days of posting, so I decided to set time aside to automate this process, as doing so would surely save me time in the long run.
 
