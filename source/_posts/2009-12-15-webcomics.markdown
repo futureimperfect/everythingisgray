@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2009-12-16
+date: 2009-12-15
 layout: post
 slug: webcomics
 title: Webcomics
