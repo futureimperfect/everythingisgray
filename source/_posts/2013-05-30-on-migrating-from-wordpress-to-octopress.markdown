@@ -86,7 +86,7 @@ This is useful for redirecting old URLs to your new Octopress site, especially i
 
 1. Add `gem 'rack-rewrite'` to the end of your Gemfile.
 2. Add `require 'rack-rewrite'` to `config.ru`.
-3. Under `$root = ::File.dirname(__FILE__)` in `config.ru` add your redirects, (these are just some examples). Of particular interest are the regular expressions that redirect example.com/<date_in_yyyy/mm/dd_format> to /archives.
+3. Under `$root = ::File.dirname(__FILE__)` in `config.ru` add your redirects, (these are just some examples). Of particular interest are the regular expressions that redirect dates in yyyy-mm-dd format to /archives.
 
 ``` ruby
 use Rack::Rewrite do
@@ -120,7 +120,7 @@ rake generate && rake watch
 
 ## Create _heroku Directory for Deployment
 
-I opted to keep the generated Heroku site in a separate directory so I can add `public` to my `.gitignore`. This will help keep your commit history clean, as not (nearly) every file that Git is tracking will change every time you re-generate your site.
+I opted to keep the generated Heroku site in a separate repository so I can add `public` to my `.gitignore`. This will help keep your commit history clean, as not (nearly) every file that Git is tracking will change every time you re-generate your site.
 
 ``` bash
 cd ~/Sites/<sitename>
@@ -147,7 +147,7 @@ gem 'sinatra', '~> 1.4.2'
 gem 'rack-rewrite'
 ```
 
-Add this task to your Rakefile. This will result in your site being deployed to Heroku when you type `rake deploy`.
+Add this task to your Rakefile. This will result in your site being deployed to Heroku when you type `rake deploy`. Don't run `rake deploy` at this time, though, because you haven't set up Heroku yet.
 
 ``` ruby Rakefile
 desc "Deploy a basic rack app to heroku"
@@ -245,7 +245,7 @@ mv ~/Sites/<sitename>/source/blog/articles/index.html ~/Sites/<sitename>/source/
 rm -rf ~/Sites/<sitename/source/blog
 ```
 
-Update navigation in `~/Sites/<sitename>/source/_includes/custom/navigation.hmtl`.
+Update the navigation in `source/_includes/custom/navigation.hmtl`.
 
 ``` html
 # Change this
@@ -258,7 +258,7 @@ Update navigation in `~/Sites/<sitename>/source/_includes/custom/navigation.hmtl
 <li><a href="{{ root_url }}/">Home</a></li>
 ```
 
-Update the Archives link in `~/Sites/<sitename>/source/index.html`.
+Update the Archives link in `source/index.html`.
 
 ``` html
 # Change this:
@@ -280,7 +280,7 @@ pagination_dir: blog
 pagination_dir:
 ```
 
-Update the Archives page title in `~/Sites/<sitename>/source/archives/index.html`.
+Update the Archives page title in `source/archives/index.html`.
 
 ``` ruby
 # Change this:
