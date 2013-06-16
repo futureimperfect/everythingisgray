@@ -4,6 +4,13 @@ title: "On Migrating from WordPress to Octopress"
 date: 2013-06-15 11:35
 comments: true
 categories: 
+- Web Development
+- Octopress
+- WordPress
+tags:
+- Web Development
+- Octopress
+- WordPress
 ---
 
 Having recently made the decision to migrate my blog from WordPress to [Octopress][10] I decided I would share my findings in hopes that someone else will benefit from them, and so I can refer back to this post should I need to do something similar in the future.
@@ -34,7 +41,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 Then `source ~/.bash_profile`.
 
-Now install Ruby 1.9.3 with rbenv:
+Now install Ruby 1.9.3 with rbenv.
 
 ``` bash
 brew install ruby-build
@@ -68,7 +75,7 @@ If you took my advice and installed [Anvil][2] for Mac, do the following to crea
 
 ``` bash
 cd ~/.pow
-ln -s /Users/james/Sites/everythingisgray everythingisgray
+ln -s ~/Sites/<sitename> <sitename>
 cd -
 rake generate && rake watch
 ```
@@ -100,7 +107,7 @@ use Rack::Rewrite do
 end
 ```
 
-* Install rack-rewrite:
+* Install rack-rewrite.
 
 ``` bash
 bundle install
@@ -131,7 +138,7 @@ touch ~/Sites/<sitename>/_heroku/public/index.html
 echo '<html><p>Hello world.</p></html>' > ~/Sites/<sitename>/_heroku/public/index.html
 ```
 
-Make the Gemfile in _heroku only include this:
+Make the Gemfile in _heroku only include these lines.
 
 ``` ruby
 source "http://rubygems.org"
@@ -140,7 +147,7 @@ gem 'sinatra', '~> 1.4.2'
 gem 'rack-rewrite'
 ```
 
-Add this task to your Rakefile:
+Add this task to your Rakefile. This will result in your site being deployed to Heroku when you type `rake deploy`.
 
 ``` ruby Rakefile
 desc "Deploy a basic rack app to heroku"
@@ -163,7 +170,7 @@ puts "## Deploying to Heroku"
 end
 ```
 
-...then update these variables, (in your Rakefile):
+...then update these variables, (in your Rakefile).
 
 ``` ruby
 deploy_default = "heroku"
@@ -202,7 +209,7 @@ The next steps I took were to sign up for a free [Disqus][12] account, install t
 
 ## Importing your WordPress data into your Octopress Site
 
-There are a number of tools available for importing your WordPress posts into Octopress as Markdown files, but the one I ended up using was [exitwp][5]. You can follow these steps to import your WordPress site with exitwp:
+There are a number of tools available for importing your WordPress posts into Octopress as Markdown files, but the one I ended up using was [exitwp][5]. You can follow these steps to import your WordPress site with exitwp.
 
 ``` bash
 brew install python
@@ -228,9 +235,9 @@ You should now see your converted site in `~/Documents/exitwp/build`, which you 
 
 Follow these steps if you don't want /blog/ to appear in your Octopress URL.
 
-* Change the permalink setting in _config.yml to `permalink: /:year/:month/:day/:title/`.
+Change the permalink setting in _config.yml to `permalink: /:year/:month/:day/:title/`.
 
-* Move the contents of the `blog` directory.
+Move the contents of the `blog` directory.
 
 ``` bash
 mv ~/Sites/<sitename>/source/blog/archives ~/Sites/<sitename>/source/archives
@@ -238,7 +245,7 @@ mv ~/Sites/<sitename>/source/blog/articles/index.html ~/Sites/<sitename>/source/
 rm -rf ~/Sites/<sitename/source/blog
 ```
 
-* Update navigation in `~/Sites/<sitename>/source/_includes/custom/navigation.hmtl`.
+Update navigation in `~/Sites/<sitename>/source/_includes/custom/navigation.hmtl`.
 
 ``` html
 # Change this
@@ -251,7 +258,7 @@ rm -rf ~/Sites/<sitename/source/blog
 <li><a href="{{ root_url }}/">Home</a></li>
 ```
 
-* Update the Archives link in `~/Sites/<sitename>/source/index.html`.
+Update the Archives link in `~/Sites/<sitename>/source/index.html`.
 
 ``` html
 # Change this:
@@ -260,7 +267,7 @@ rm -rf ~/Sites/<sitename/source/blog
 <a href="/archives">Archives</a>
 ```
 
-* Update the category base URL in _config.yml.
+Update the category base URL in _config.yml.
 
 ``` ruby
 # Change this:
@@ -273,7 +280,7 @@ pagination_dir: blog
 pagination_dir:
 ```
 
-* Update the Archives page title in `~/Sites/<sitename>/source/archives/index.html`.
+Update the Archives page title in `~/Sites/<sitename>/source/archives/index.html`.
 
 ``` ruby
 # Change this:
@@ -292,7 +299,7 @@ cd ~/Sites/<sitename>/source && find . -name "*.markdown" -print0 | xargs -0 sed
 
 ## Using Google Fonts
 
-If you love Google Fonts add this to the top of `source/_includes/custom/head.html`, (just be sure to use your own favorite fonts!)
+If you love Google Fonts add this to the top of `source/_includes/custom/head.html`, (just be sure to use your own favorite fonts!).
 
 ``` html
 <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet'  type='text/css'>
@@ -300,7 +307,7 @@ If you love Google Fonts add this to the top of `source/_includes/custom/head.ht
 
 ## Prevent Comment Text from Wrapping on Small Screens
 
-One of the first things I noticed with the default Octopress theme is that the Disqus comments text that appears above posts was wrapping on smaller screens, which caused it to overlap with the post title. To fix this, I added the following to `~/Sites/<sitename>/sass/custom/_styles.scss`.
+One of the first things I noticed with the default Octopress theme is that the Disqus comments text that appears above posts was wrapping on smaller screens, which caused it to overlap with the post title. To fix this, I added the following to `sass/custom/_styles.scss`.
 
 ``` css _styles.scss
 article { 
@@ -345,7 +352,7 @@ Then update the yaml front matter in `404.markdown`.
 
 I followed a post on [Ewal.net][6] to get Fancybox working with Octopress. The only difference is that I didn't add a reference to jQuery in the head because it's already present in the default installation of Octopress.
 
-To add Fancybox support to your posts simply add:
+To add Fancybox support to an image simply add this to your post.
 ``` ruby
 {% img fancybox /dir/foo.jpg Title %}
 ```
@@ -410,7 +417,7 @@ The last step for me was to transfer my DNS records from Amazon Route 53 to [Hov
 
 Here are the relevant Heroku commands. Don't forget to update the `url:` in _config.yml one last time, (e.g., remove herokuapp from URL).
 
-```
+``` bash
 cd ~/Sites/<sitename>/_heroku && heroku domains:add <sitename>.com
 heroku domains:add www.<sitename>.com
 ```
