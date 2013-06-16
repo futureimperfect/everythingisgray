@@ -29,7 +29,7 @@ brew doctor
 brew install rbenv
 ```
 
-The next thing you should do is add the following to your `~/.bash_profile`.
+The next thing you should do is add the following to your ~/.bash_profile.
 
 ``` bash
 # To use Homebrew's directories rather than ~/.rbenv add to your profile:
@@ -56,7 +56,7 @@ ruby --version # Should now return 1.9.3
 
 ## Setting Up Your Local ~/Sites Directory and Installing Octopress
 
-On OS X 10.8 the `~/Sites` folder no longer exists in the home directory by default. No problem, though, because we can create it, and we'll even get the correct permissions and pretty icon when we do so, (like you do when you create `~/Applications`).
+On OS X 10.8 the ~/Sites folder no longer exists in the home directory by default. No problem though, because we can create it, and we'll even get the correct permissions and pretty icon when we do so.
 
 I also recommend checking out [Anvil][2] for Mac. This will allow you to easily manage your local site and give you a .dev domain for testing. Best of all, it's free.
 
@@ -84,11 +84,19 @@ rake generate && rake watch
 
 This is useful for redirecting old URLs to your new Octopress site, especially if you used date-based permalinks for archives on WordPress, (something like example.com/2012/02/22), and you want those to redirect to /archives on your new site.
 
-1. Add `gem 'rack-rewrite'` to the end of your Gemfile.
-2. Add `require 'rack-rewrite'` to `config.ru`.
-3. Under `$root = ::File.dirname(__FILE__)` in `config.ru` add your redirects, (these are just some examples). Of particular interest are the regular expressions that redirect dates in yyyy-mm-dd format to /archives.
+Add this to the end of your Gemfile.
+``` ruby Gemfile
+gem 'rack-rewrite'
+```
 
-``` ruby
+Add this to config.ru.
+``` ruby config.ru
+require 'rack-rewrite'
+```
+
+Under `$root = ::File.dirname(__FILE__)` in config.ru add your redirects, (these are just some examples). Of particular interest are the regular expressions that redirect dates in yyyy-mm-dd format to /archives.
+
+``` ruby config.ru
 use Rack::Rewrite do
     r301 /.*/,  Proc.new {|path, rack_env| "http://#{rack_env['SERVER_NAME'].     gsub(/www\./i, '') }#{path}" },
       :if => Proc.new {|rack_env| rack_env['SERVER_NAME'] =~ /www\./i}
@@ -107,7 +115,7 @@ use Rack::Rewrite do
 end
 ```
 
-* Install rack-rewrite.
+Install rack-rewrite.
 
 ``` bash
 bundle install
@@ -116,11 +124,11 @@ bundle show rack-rewrite
 rake generate && rake watch
 ```
 
-* Now restart your local server, (turn the slider on and off with Anvil).
+Now restart your local server, (turn the slider on and off with Anvil).
 
 ## Create _heroku Directory for Deployment
 
-I opted to keep the generated Heroku site in a separate repository so I can add `public` to my `.gitignore`. This will help keep your commit history clean, as not (nearly) every file that Git is tracking will change every time you re-generate your site.
+I opted to keep the generated Heroku site in a separate repository so I can keep public in my .gitignore. This will help keep your commit history clean, as not (nearly) every file that Git is tracking will change every time you re-generate your site.
 
 ``` bash
 cd ~/Sites/<sitename>
@@ -227,17 +235,20 @@ cd ~/Documents
 git clone https://github.com/thomasf/exitwp
 ```
 
-Now, copy your WordPress XML files to `~/Documents/exitwp/wordpress-xml`, then run `xmllint` on your export file and address any errors you encounter. You should also customize what you want exported in `~/Documents/exitwp/config.yaml`, (e.g., whether or not you want images to be downloaded and included in your build directory). To run the tool type `python exitwp.py` in the terminal from within the `~/Documents/exitwp` directory.
+Now, copy your WordPress XML files to ~/Documents/exitwp/wordpress-xml, then run `xmllint` on your export file and address any errors you encounter. You should also customize what you want exported in ~/Documents/exitwp/config.yaml, (e.g., whether or not you want images to be downloaded and included in your build directory). To run the tool type `python exitwp.py` in the terminal from within the ~/Documents/exitwp directory.
 
-You should now see your converted site in `~/Documents/exitwp/build`, which you can copy to your `~/Sites/<sitename>/source` directory.
+You should now see your converted site in `~/Documents/exitwp/build`, which you can copy to your ~/Sites/<sitename>/source directory.
 
 ## Remove /blog/ from Octopress URL
 
 Follow these steps if you don't want /blog/ to appear in your Octopress URL.
 
-Change the permalink setting in _config.yml to `permalink: /:year/:month/:day/:title/`.
+Update the permalink setting in _config.yml.
+``` ruby _config.yml
+permalink: /:year/:month/:day/:title/
+```
 
-Move the contents of the `blog` directory.
+Move the contents of the blog directory.
 
 ``` bash
 mv ~/Sites/<sitename>/source/blog/archives ~/Sites/<sitename>/source/archives
@@ -245,7 +256,7 @@ mv ~/Sites/<sitename>/source/blog/articles/index.html ~/Sites/<sitename>/source/
 rm -rf ~/Sites/<sitename/source/blog
 ```
 
-Update the navigation in `source/_includes/custom/navigation.hmtl`.
+Update the navigation in source/_includes/custom/navigation.hmtl.
 
 ``` html
 # Change this
@@ -258,7 +269,7 @@ Update the navigation in `source/_includes/custom/navigation.hmtl`.
 <li><a href="{{ root_url }}/">Home</a></li>
 ```
 
-Update the Archives link in `source/index.html`.
+Update the Archives link in source/index.html.
 
 ``` html
 # Change this:
@@ -280,7 +291,7 @@ pagination_dir: blog
 pagination_dir:
 ```
 
-Update the Archives page title in `source/archives/index.html`.
+Update the Archives page title in source/archives/index.html.
 
 ``` ruby
 # Change this:
@@ -307,7 +318,7 @@ If you love Google Fonts add this to the top of `source/_includes/custom/head.ht
 
 ## Prevent Comment Text from Wrapping on Small Screens
 
-One of the first things I noticed with the default Octopress theme is that the Disqus comments text that appears above posts was wrapping on smaller screens, which caused it to overlap with the post title. To fix this, I added the following to `sass/custom/_styles.scss`.
+One of the first things I noticed with the default Octopress theme is that the Disqus comments text that appears above posts was wrapping on smaller screens, which caused it to overlap with the post title. To fix this, I added the following to sass/custom/_styles.scss.
 
 ``` css _styles.scss
 article { 
@@ -346,7 +357,7 @@ cd ../
 rm -rf 404
 ```
 
-Then update the yaml front matter in `404.markdown`.
+Then update the yaml front matter in 404.markdown.
 
 ## Fancybox
 
