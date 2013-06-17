@@ -1,7 +1,7 @@
 ---
 author: James Barclay
 comments: true
-date: 2010-03-19
+date: 2010-03-20
 layout: post
 slug: msu-comics-forum
 title: MSU Comics Forum
