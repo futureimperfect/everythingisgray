@@ -237,7 +237,7 @@ git clone https://github.com/thomasf/exitwp
 
 Now, copy your WordPress XML files to ~/Documents/exitwp/wordpress-xml, then run `xmllint` on your export file and address any errors you encounter. You should also customize what you want exported in ~/Documents/exitwp/config.yaml, (e.g., whether or not you want images to be downloaded and included in your build directory). To run the tool type `python exitwp.py` in the terminal from within the ~/Documents/exitwp directory.
 
-You should now see your converted site in `~/Documents/exitwp/build`, which you can copy to your source directory.
+You should now see your converted site in ~/Documents/exitwp/build, which you can copy to your source directory.
 
 ## Remove /blog/ from Octopress URL
 
