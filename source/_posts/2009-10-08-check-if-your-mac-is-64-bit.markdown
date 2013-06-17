@@ -14,7 +14,7 @@ tags:
 - Snow Leopard
 ---
 
-Here's an easy way to determine whether or not your Mac is 64 bit capable. Open Terminal.app, which is located in `/Applications/Utilities` and type in:
+Here's an easy way to determine whether or not your Mac is 64 bit capable. Open Terminal.app, which is located in /Applications/Utilities and type in:
 
 `sysctl hw | grep 64bit`
 
