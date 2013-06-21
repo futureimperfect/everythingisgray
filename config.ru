@@ -25,6 +25,7 @@ use Rack::Rewrite do
   r301 %r{^/[0-9]{4}/(1[0-2]|0[1-9])/?$}, '/archives/'
   r301 %r{^/[0-9]{4}/?$}, '/archives/'
   r301 %r{^/how-to-installing-freebsd-as-a-guest-os-in-parallels-4/?$}, '/2009/04/16/how-to-installing-freebsd-as-a-guest-os-in-parallels-4/'
+  r301 %r{^/resume/?$}, '/downloads/resume.pdf'
   r301 %r{^/portfolio/?$}, 'http://everythingisgray.carbonmade.com/'
   r301 %r{^/portfolio/comics/?$}, 'http://everythingisgray.carbonmade.com/'
   r301 %r{^/contact-me/?$}, '/about/'
