@@ -16,6 +16,6 @@ Today I decided to switch to [iTerm2][1] on OS X. Shortly after making this deci
 
 I know I've tried iTerm in the past, and I'm pretty sure not being able to do this right away kept me from continuing to use the tool. After making this change everything has been swell, though.
 
-[![iTerm2 Preferences](/images/2013-11-03-option-left|right-arrow-navigation-in-iterm2/iterm2_preferences.png)](https://code.google.com/p/iterm2/wiki/Keybindings)
+[![iTerm2 Preferences](/images/2013-11-03-option-left-right-arrow-navigation-in-iterm2/iterm2_preferences.png)](https://code.google.com/p/iterm2/wiki/Keybindings)
 
 [1]: http://www.iterm2.com/#/section/home
