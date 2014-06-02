@@ -74,7 +74,7 @@ def ldap_search(ldap_uri, base, query):
  
     finally:
         l.unbind_s()
-        print emails
+        print(emails)
  
  
 def main():
