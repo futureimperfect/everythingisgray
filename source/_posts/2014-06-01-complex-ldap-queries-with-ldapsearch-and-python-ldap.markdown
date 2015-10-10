@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Complex LDAP Queries with ldapsearch and python-ldap"
+title: "Complex LDAP Queries With ldapsearch and python-ldap"
 date: 2014-06-01 16:31
 published: true
 comments: true

@@ -63,11 +63,9 @@ class YouTube < Liquid::Tag
     settings = site.config['youtube']
     api_key = settings['api_key']
 
-    puts "before"
     Yt.configure do |config|
       config.api_key = api_key
     end
-    puts "after"
 
     video = Yt::Video.new id: @id
 
@@ -84,19 +82,19 @@ class YouTube < Liquid::Tag
     @videoFrame =  CGI.escapeHTML("<iframe style=\"vertical-align:top;width:100%;height:100%;position:absolute;\" src=\"#{@emu}\" frameborder=\"0\" allowfullscreen></iframe>")
  
     # with jQuery 
-    @onclick    = "$('##{@id}').replaceWith('#{@videoFrame}');return false;"
+    #@onclick    = "$('##{@id}').replaceWith('#{@videoFrame}');return false;"
  
     # without JQuery
-    # @onclick    = "var myAnchor = document.getElementById('#{@id}');" + 
-    #               "var tmpDiv = document.createElement('div');" +  
-    #               "tmpDiv.innerHTML = '#{@videoFrame}';" + 
-    #               "myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);"+
-    #               "return false;" 
+    @onclick    = "var myAnchor = document.getElementById('#{@id}');" + 
+                  "var tmpDiv = document.createElement('div');" +  
+                  "tmpDiv.innerHTML = '#{@videoFrame}';" + 
+                  "myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);"+
+                  "return false;" 
 
    # note: so special care is required to produce html code that will not be massage by the 
    #       markdown processor :
    #       extract from the markdown doc :  
-   #           'The only restrictions are that block-level HTML elements ï¿½ e.g. <div>, <table>, <pre>, <p>, etc. 
+   #           'The only restrictions are that block-level HTML elements ¿ e.g. <div>, <table>, <pre>, <p>, etc. 
    #            must be separated from surrounding content by blank lines, and the start and end tags of the block
    #            should not be indented with tabs or spaces. '
    result = <<-EOF
