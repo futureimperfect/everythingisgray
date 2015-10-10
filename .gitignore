@@ -14,3 +14,5 @@ node_modules
 *~
 *.swp
 .preview-mode
+Gemfile.lock
+_config.yml

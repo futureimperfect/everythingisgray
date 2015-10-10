@@ -19,6 +19,8 @@ $footer-bg: desaturate(lighten(#881616, 18), 5) !default;
 //$footer-bg: #ccc !default;
 //$footer-bg-front: image-url('noise.png');
 //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
+$nav-color: #fff !default;
+$nav-color-hover: darken($nav-color, 10) !default;
 
 // Footer Colors
 $footer-color: #ddd;
