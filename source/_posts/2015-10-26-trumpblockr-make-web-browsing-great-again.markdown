@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TrumpBlockr: Block Donald Trump, Make Web Browsing Great Again"
+title: "TrumpBlockr: Make Web Browsing Great Again"
 date: 2015-10-26 23:25:30 -0700
 published: true
 comments: true
